@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=Work
+Enabled=true
+Parent=f62191d31305b968526893c2b5c5696e746f6b42
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.office365.com
+Method=LOGIN
+Port=25
+ProxyUid=system-proxy
+RememberPassword=true
+User=graeme.tinsdale@mercurytide.co.uk
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

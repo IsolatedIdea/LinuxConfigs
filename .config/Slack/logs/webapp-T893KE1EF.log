@@ -1,0 +1,1089 @@
+info: ╔══════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/01/18, 10:58:08:489      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-1 10:58:11.808 [BOOT] booted! pri:0 version:1517456981 start_ms:1517482689939 (1869ms ago)
+info: Feb-1 10:58:11.808 [BOOT] Starting incremental boot (early)
+info: Feb-1 10:58:12.157 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-1 10:58:12.157 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-1 10:58:12.158 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-1 10:58:12.158 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-1 10:58:12.241 [FOCUS-EVENT] Window blurred
+info: Feb-1 10:58:12.928 [FOCUS-EVENT] Window focused
+info: Feb-1 10:58:12.973 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-1 10:58:12.973 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-1 10:58:12.976 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-1 10:58:13.323 [BOOT] Finalizing incremental boot
+warn: Feb-1 10:58:13.902 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-1 10:58:13.937 [BOOT] Completed incremental boot
+info: Feb-1 10:58:14.360 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-1 10:58:14.370 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-1 10:58:14.380 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-1 10:58:14.380 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-1 10:58:14.380 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-1 10:58:14.390 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-1 10:58:14.390 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-1 10:58:14.390 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-1 10:58:14.410 [BOOT] Finished first boot 1890 ms after DOM ready
+info: Feb-1 10:58:14.346 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-1 10:58:14.407 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-1 10:58:14.412 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-1 10:58:14.728 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-1 10:58:14.731 [CHECK-UNREADS] Not marking C8A7WPBM5 because last_read >= latest && channel is read
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-1 10:58:14.829 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-1 10:58:14.832 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-1 10:58:14.915 [FOCUS-EVENT] Window blurred
+info: Feb-1 10:58:15.810 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-1 10:58:15.149 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-1 10:58:15.268 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-1 10:58:15.632 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-1 10:58:15.632 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-1 10:58:18.615 [FOCUS-EVENT] Window focused
+info: Feb-1 10:58:18.636 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-1 10:58:18.637 [CHECK-UNREADS] Not marking C8A7WPBM5 because last_read >= latest && channel is read
+info: Feb-1 10:58:18.689 [FOCUS-EVENT] Team selection changed (false)
+info: Feb-1 10:58:18.712 [FOCUS-EVENT] Window blurred
+info: Feb-1 13:48:31.712 [FOCUS-EVENT] Team selection changed (true)
+info: Feb-1 13:48:31.739 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-1 13:48:31.740 [CHECK-UNREADS] Not marking C8A7WPBM5 because last_read >= latest && channel is read
+info: Feb-1 13:48:33.234 [FOCUS-EVENT] Team selection changed (false)
+info: Feb-1 13:48:33.253 [FOCUS-EVENT] Window blurred
+info: Feb-2 07:03:13.770 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-2 07:03:13.771 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-2 07:03:13.772 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-2 07:03:13.774 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-2 07:03:13.775 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-2 07:03:13.775 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-2 07:03:13.776 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-2 07:03:13.776 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-2 07:03:13.776 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-2 07:03:13.776 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-2 07:03:13.776 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-2 07:03:13.777 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-2 07:03:13.777 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-2 07:03:13.777 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-2 07:03:13.777 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-2 07:03:13.788 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-2 07:03:14.230 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-2 07:03:14.230 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-2 07:03:14.788 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-2 07:03:14.788 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: ╔══════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/07/18, 08:42:03:870      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-7 08:42:10.187 [BOOT] booted! pri:0 version:1517981239 start_ms:1517992926725 (3462ms ago)
+info: Feb-7 08:42:10.188 [BOOT] Starting incremental boot (early)
+info: Feb-7 08:42:10.569 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-7 08:42:10.570 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-7 08:42:10.570 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-7 08:42:10.570 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-7 08:42:10.719 [FOCUS-EVENT] Window blurred
+info: Feb-7 08:42:11.564 [BOOT] Finalizing incremental boot
+info: Feb-7 08:42:12.611 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-7 08:42:12.796 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-7 08:42:12.832 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-7 08:42:12.838 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-7 08:42:12.939 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-7 08:42:12.940 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-7 08:42:12.947 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-7 08:42:12.951 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-7 08:42:13.127 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-7 08:42:13.128 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-7 08:42:13.249 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-7 08:42:13.283 [BOOT] Completed incremental boot
+info: Feb-7 08:42:13.403 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-7 08:42:13.406 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-7 08:42:13.850 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-7 08:42:13.850 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-7 08:42:13.851 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-7 08:42:13.851 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-7 08:42:13.851 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-7 08:42:13.853 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-7 08:42:13.853 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-7 08:42:13.855 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-7 08:42:13.859 [BOOT] Finished first boot 3299 ms after DOM ready
+info: Feb-7 08:42:13.955 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-7 08:42:14.140 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-7 08:42:14.138 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-7 08:42:14.385 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-7 08:42:14.385 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-8 03:15:55.194 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-8 03:15:55.195 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-8 03:15:55.196 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/8 03:15:55.197  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1243578
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1403898)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1405718)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1358352)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1406091)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1400022)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1206783)
+at E (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1443754)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1445420)
+info: Feb-8 03:15:55.201 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-8 03:15:55.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-8 03:15:55.667 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-8 03:15:56.920 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-8 03:15:56.920 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-8 03:15:56.920 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-8 03:15:56.920 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-8 03:15:56.930 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-8 03:15:56.930 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-8 03:15:56.468 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-8 03:15:56.468 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-8 03:15:57.690 [T893KE1EF] SOCKET-MANAGER:  received an error of type 3: Cannot create connection
+info: Feb-8 03:15:57.690 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-8 03:15:57.690 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-8 03:15:57.700 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/8 03:15:57.710  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1243578
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1403898)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1405718)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1400816)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1206783)
+at C (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1444476)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1445468)
+warn: Feb-8 03:15:57.730 Unexpected start error: Cannot create connection
+info: Feb-8 03:15:57.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-8 03:15:57.667 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-8 03:15:58.350 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-8 03:15:58.360 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-8 03:15:58.360 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-8 03:15:58.370 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-8 03:15:58.370 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-8 03:15:58.370 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-8 03:15:58.390 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-8 03:15:58.390 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-8 03:15:58.390 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-8 03:15:58.390 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-8 03:15:58.904 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-8 03:15:58.904 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-8 03:15:58.905 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-8 03:15:59.669 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-8 03:15:59.675 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-8 03:15:59.775 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-8 03:15:59.776 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-8 03:15:59.777 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-8 03:15:59.778 [T893KE1EF] EVENTLOG fr=false, lc=false, lt=1517992933.000063
+info: Feb-8 03:15:59.778 [T893KE1EF] EVENTLOG fetching events since 1517992933.000063 (66826.9999370575 seconds ago)
+info: Feb-8 03:16:00.177 [T893KE1EF] EVENTLOG nothing to process
+info: Feb-8 03:16:00.178 [T893KE1EF] EVENTLOG fetched finish (cancelled? false)
+info: Feb-8 03:16:00.178 [T893KE1EF] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-8 03:16:00.481 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-8 23:21:38.698 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-8 23:21:38.698 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-8 23:21:38.699 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-8 23:21:38.700 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-8 23:21:38.703 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-8 23:21:39.143 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-8 23:21:39.144 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-8 23:21:39.878 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-8 23:21:39.878 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-8 23:21:39.879 [T893KE1EF] EVENTLOG fr=true, lc=false, lt=1517992933.000063
+info: Feb-8 23:59:30.646 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-8 23:59:30.646 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-8 23:59:30.646 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/8 23:59:30.646  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1243578
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1403898)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1405718)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1358352)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1406091)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1400022)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1206783)
+at E (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1443754)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1445420)
+info: Feb-8 23:59:30.648 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-8 23:59:30.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-8 23:59:30.666 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-8 23:59:31.910 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-8 23:59:31.920 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-8 23:59:31.920 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-8 23:59:31.920 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-8 23:59:31.930 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-8 23:59:31.930 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-8 23:59:31.443 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-8 23:59:31.443 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-8 23:59:32.800 [T893KE1EF] SOCKET-MANAGER:  received an error of type 3: Cannot create connection
+info: Feb-8 23:59:32.800 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-8 23:59:32.800 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-8 23:59:32.800 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/8 23:59:32.900  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1243578
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1403898)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1405718)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1400816)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1206783)
+at C (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1444476)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1445468)
+warn: Feb-8 23:59:32.900 Unexpected start error: Cannot create connection
+info: Feb-8 23:59:32.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-8 23:59:32.666 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-8 23:59:33.170 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-8 23:59:33.180 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-8 23:59:33.180 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-8 23:59:33.180 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-8 23:59:33.190 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-8 23:59:33.310 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-8 23:59:33.320 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-8 23:59:33.320 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-8 23:59:33.320 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-8 23:59:33.320 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-8 23:59:33.765 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-8 23:59:33.765 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-8 23:59:33.766 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-8 23:59:34.667 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-8 23:59:34.668 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-8 23:59:34.758 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-8 23:59:34.758 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-8 23:59:34.758 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-8 23:59:34.758 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-8 23:59:34.759 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-8 23:59:34.760 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-8 23:59:34.761 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-8 23:59:34.761 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-8 23:59:34.762 [T893KE1EF] EVENTLOG fr=false, lc=false, lt=1517992933.000063
+info: Feb-8 23:59:34.762 [T893KE1EF] EVENTLOG fetching events since 1517992933.000063 (141441.9999370575 seconds ago)
+info: Feb-8 23:59:34.978 [T893KE1EF] EVENTLOG nothing to process
+info: Feb-8 23:59:34.978 [T893KE1EF] EVENTLOG fetched finish (cancelled? false)
+info: Feb-8 23:59:34.978 [T893KE1EF] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-8 23:59:35.360 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-9 10:10:19.100 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.500 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-9 10:10:19.140 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.140 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.160 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-9 10:10:19.410 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.430 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.440 [MESSAGE-LIST] requestAround channelId: C8A7WPBM5 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-9 10:10:19.500 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-9 10:10:19.458 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-9 10:10:19.503 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-9 10:10:19.868 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-9 10:10:19.870 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-9 20:05:53.295 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-9 20:05:53.296 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-9 20:05:53.298 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-9 20:05:53.301 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-9 20:05:53.304 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-9 20:05:53.304 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-9 20:05:53.305 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-9 20:05:53.310 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-9 20:05:53.751 [INFO] TS.reload() called: "parseInt(TS.boot_data.version_ts) < parseInt(data.min_version_ts)"
+info: 2018/2/9 20:05:53.752  Stacktrace: ↴
+ at Object.e [as reload] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:79432)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.bcdf2c0717034e73cbe4.min.js:1:79666)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1243578
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:1406629
+at u (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:546350)
+at j._settlePromiseFromHandler (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:518835)
+at j._settlePromise (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:519687)
+at j._settlePromise0 (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:520424)
+at j._settlePromises (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:521818)
+at u._drainQueue (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:477349)
+at u._drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:477463)
+at drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:475753)
+at MutationObserver.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.546ed73cdb6f1c4d371b.min.js:1:536162)
+info: Feb-9 20:05:53.762 [INFO] client window unloaded!
+error: Calls failed to load, bailing
+info: Feb-9 20:05:58.512 [BOOT] booted! pri:0 version:1518206424 start_ms:1518206756846 (1665ms ago)
+info: Feb-9 20:05:58.513 [BOOT] Starting incremental boot (early)
+info: Feb-9 20:05:58.869 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-9 20:05:58.870 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-9 20:05:58.870 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-9 20:05:58.870 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-9 20:06:13.713 [FOCUS-EVENT] Window blurred
+info: Feb-9 20:06:14.260 [BOOT] Finalizing incremental boot
+info: Feb-9 20:06:14.241 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-9 20:06:14.248 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-9 20:06:14.249 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-9 20:06:14.249 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-9 20:06:14.250 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-9 20:06:14.287 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-9 20:06:14.298 [BOOT] Completed incremental boot
+info: Feb-9 20:06:14.489 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-9 20:06:14.490 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-9 20:06:14.490 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-9 20:06:14.490 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-9 20:06:14.490 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-9 20:06:14.491 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-9 20:06:14.491 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-9 20:06:14.491 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-9 20:06:14.495 [BOOT] Finished first boot 15632 ms after DOM ready
+info: Feb-9 20:06:14.609 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-9 20:06:14.609 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-9 20:06:14.769 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-9 20:06:14.784 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-9 20:06:14.786 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-9 20:06:14.983 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-9 20:06:15.182 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-9 20:06:15.183 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-9 21:40:41.282 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-9 21:40:41.282 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-9 21:40:41.283 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/9 21:40:41.284  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.95542aca41c508ebef52.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1038215
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1083623)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1085443)
+at s (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:999487)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1085816)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1079747)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1002150)
+at k (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1142617)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1144283)
+info: Feb-9 21:40:41.288 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-9 21:40:41.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-9 21:40:41.667 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-9 21:40:42.136 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-9 21:40:42.136 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-9 21:40:42.138 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-9 21:40:42.138 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-9 21:40:42.138 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-9 21:40:42.138 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-9 21:40:42.490 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-9 21:40:42.490 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-9 21:40:43.344 [T893KE1EF] SOCKET-MANAGER:  received an error of type 1: Socket URL has expired
+info: Feb-9 21:40:43.344 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-9 21:40:43.344 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-9 21:40:43.345 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/9 21:40:43.345  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.95542aca41c508ebef52.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1038215
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1083623)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1085443)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1080541)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1002150)
+at x (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1143339)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1144331)
+warn: Feb-9 21:40:43.346 Unexpected start error: Socket URL has expired
+info: Feb-9 21:40:43.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-9 21:40:43.668 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-9 21:40:44.140 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-9 21:40:44.140 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-9 21:40:44.150 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-9 21:40:44.150 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-9 21:40:44.160 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-9 21:40:44.160 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-9 21:40:44.190 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-9 21:40:44.200 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-9 21:40:44.210 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-9 21:40:44.220 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-9 21:40:44.686 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-9 21:40:44.686 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-9 21:40:44.687 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-9 21:40:45.670 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-9 21:40:45.677 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-9 21:40:45.877 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-9 21:40:45.878 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-9 21:40:45.879 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-9 21:40:46.297 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-10 17:00:34.698 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-10 17:00:34.699 [T893KE1EF] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-10 17:00:34.700 T893KE1EF SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/10 17:00:34.702  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.95542aca41c508ebef52.min.js:1:68980)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1038215
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1083623)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1085443)
+at s (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:999487)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1085816)
+at e (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1079747)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.d09aafeec5dc7c760c59.min.js:1:1002150)
+at k (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1142617)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.8ed601ff7ced4eee60b9.min.js:1:1144283)
+info: Feb-10 17:00:34.706 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-10 17:00:35.666 [T893KE1EF] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-10 17:00:35.667 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-10 17:00:36.950 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-10 17:00:36.960 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-10 17:00:36.970 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-10 17:00:36.970 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-10 17:00:36.980 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-10 17:00:36.980 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-10 17:00:36.458 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-10 17:00:36.458 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-10 17:00:36.966 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-10 17:00:36.966 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-11 13:05:46.692 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-11 13:05:46.692 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-11 13:05:46.693 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-11 13:05:46.693 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-11 13:05:46.694 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-11 13:05:46.694 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-11 13:05:46.694 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-11 13:05:46.694 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-11 13:05:46.695 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-11 13:05:46.695 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-11 13:05:46.695 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-11 13:05:46.696 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-11 13:05:46.696 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-11 13:05:46.697 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-11 13:05:46.697 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-11 13:05:46.702 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-11 13:05:47.138 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-11 13:05:47.138 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-11 13:05:47.676 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-11 13:05:47.676 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-12 09:08:17.691 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-12 09:08:17.691 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-12 09:08:17.691 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-12 09:08:17.692 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-12 09:08:17.692 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-12 09:08:17.692 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-12 09:08:17.693 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-12 09:08:17.693 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-12 09:08:17.693 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-12 09:08:17.693 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-12 09:08:17.693 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-12 09:08:17.694 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-12 09:08:17.694 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-12 09:08:17.694 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-12 09:08:17.694 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-12 09:08:17.697 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-12 09:08:18.860 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-12 09:08:18.860 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-12 09:08:18.722 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-12 09:08:18.722 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-13 05:10:38.691 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-13 05:10:38.721 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-13 05:10:38.724 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-13 05:10:38.726 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-13 05:10:38.726 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-13 05:10:38.727 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-13 05:10:38.727 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-13 05:10:38.727 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-13 05:10:38.727 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-13 05:10:38.727 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-13 05:10:38.728 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-13 05:10:38.728 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-13 05:10:38.728 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-13 05:10:38.728 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-13 05:10:38.728 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-13 05:10:38.852 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-13 05:10:39.265 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-13 05:10:39.266 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-13 05:10:39.866 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-13 05:10:39.866 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-14 01:13:49.691 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-14 01:13:49.757 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-14 01:13:49.906 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-14 01:13:49.906 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-14 01:13:49.907 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-14 01:13:49.934 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-14 01:13:49.934 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-14 01:13:49.935 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-14 01:13:49.935 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-14 01:13:49.935 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-14 01:13:49.935 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-14 01:13:49.998 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-14 01:13:49.998 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-14 01:13:50.120 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-14 01:13:50.160 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-14 01:13:50.634 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-14 01:13:51.442 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-14 01:13:51.442 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-14 01:13:52.260 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-14 01:13:52.260 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 10:50:57:981      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-14 10:51:04.439 [BOOT] booted! pri:0 version:1518574719 start_ms:1518605460927 (3512ms ago)
+info: Feb-14 10:51:04.439 [BOOT] Starting incremental boot (early)
+info: Feb-14 10:51:04.815 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-14 10:51:04.815 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-14 10:51:04.816 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-14 10:51:04.816 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-14 10:51:04.966 [FOCUS-EVENT] Window blurred
+info: Feb-14 10:51:06.191 [BOOT] Finalizing incremental boot
+info: Feb-14 10:51:07.340 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-14 10:51:07.650 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-14 10:51:07.690 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-14 10:51:07.694 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-14 10:51:07.841 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-14 10:51:07.843 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-14 10:51:07.853 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-14 10:51:07.858 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-14 10:51:08.320 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-14 10:51:08.370 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-14 10:51:08.134 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-14 10:51:08.166 [BOOT] Completed incremental boot
+info: Feb-14 10:51:08.502 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-14 10:51:08.503 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-14 10:51:08.503 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-14 10:51:08.504 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-14 10:51:08.504 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-14 10:51:08.506 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-14 10:51:08.506 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-14 10:51:08.507 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-14 10:51:08.514 [BOOT] Finished first boot 3711 ms after DOM ready
+info: Feb-14 10:51:08.697 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-14 10:51:08.859 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-14 10:51:09.133 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-14 10:51:09.134 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-14 10:51:09.326 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-14 10:51:09.479 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-14 10:51:09.479 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 11:11:52:827      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-14 11:11:59.519 [BOOT] booted! pri:0 version:1518574719 start_ms:1518606716230 (3289ms ago)
+info: Feb-14 11:11:59.520 [BOOT] Starting incremental boot (early)
+info: Feb-14 11:11:59.918 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-14 11:11:59.918 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-14 11:11:59.919 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-14 11:11:59.919 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-14 11:12:00.175 [FOCUS-EVENT] Window blurred
+info: Feb-14 11:12:01.592 [BOOT] Finalizing incremental boot
+info: Feb-14 11:12:02.486 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-14 11:12:02.878 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-14 11:12:02.926 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-14 11:12:02.931 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-14 11:12:03.120 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-14 11:12:03.130 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-14 11:12:03.150 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-14 11:12:03.180 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-14 11:12:03.128 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-14 11:12:03.147 [BOOT] Completed incremental boot
+info: Feb-14 11:12:03.477 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-14 11:12:03.477 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-14 11:12:03.477 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-14 11:12:03.477 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-14 11:12:03.477 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-14 11:12:03.478 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-14 11:12:03.478 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-14 11:12:03.478 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-14 11:12:03.479 [BOOT] Finished first boot 3575 ms after DOM ready
+info: Feb-14 11:12:03.579 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-14 11:12:03.598 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-14 11:12:03.729 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-14 11:12:03.732 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-14 11:12:04.300 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-14 11:12:04.133 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-14 11:12:04.208 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-14 11:12:04.769 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-14 11:12:04.771 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 14:24:36:954      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-14 14:24:43.296 [BOOT] booted! pri:0 version:1518574719 start_ms:1518618280216 (3080ms ago)
+info: Feb-14 14:24:43.297 [BOOT] Starting incremental boot (early)
+info: Feb-14 14:24:43.571 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-14 14:24:43.571 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-14 14:24:43.572 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-14 14:24:43.572 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-14 14:24:43.788 [FOCUS-EVENT] Window blurred
+info: Feb-14 14:24:44.934 [BOOT] Finalizing incremental boot
+info: Feb-14 14:24:45.596 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-14 14:24:45.824 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-14 14:24:45.885 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-14 14:24:45.892 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-14 14:24:46.500 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-14 14:24:46.600 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-14 14:24:46.110 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-14 14:24:46.140 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-14 14:24:47.140 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-14 14:24:47.430 [BOOT] Completed incremental boot
+info: Feb-14 14:24:47.341 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-14 14:24:47.342 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-14 14:24:47.342 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-14 14:24:47.343 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-14 14:24:47.343 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-14 14:24:47.344 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-14 14:24:47.344 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-14 14:24:47.345 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-14 14:24:47.348 [BOOT] Finished first boot 3784 ms after DOM ready
+info: Feb-14 14:24:47.487 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-14 14:24:47.488 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-14 14:24:47.840 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-14 14:24:48.900 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-14 14:24:48.100 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:02:33:241      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-15 09:02:39.592 [BOOT] booted! pri:0 version:1518678557 start_ms:1518685356252 (3340ms ago)
+info: Feb-15 09:02:39.593 [BOOT] Starting incremental boot (early)
+info: Feb-15 09:02:39.970 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-15 09:02:39.971 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-15 09:02:39.971 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-15 09:02:39.971 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-15 09:02:40.147 [FOCUS-EVENT] Window blurred
+info: Feb-15 09:02:41.438 [BOOT] Finalizing incremental boot
+info: Feb-15 09:02:42.180 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-15 09:02:42.578 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-15 09:02:42.622 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:02:42.626 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-15 09:02:42.693 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-15 09:02:42.694 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-15 09:02:42.700 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-15 09:02:42.705 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-15 09:02:42.831 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-15 09:02:42.836 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-15 09:02:42.889 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-15 09:02:42.922 [BOOT] Completed incremental boot
+info: Feb-15 09:02:43.238 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-15 09:02:43.240 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-15 09:02:43.240 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-15 09:02:43.241 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-15 09:02:43.242 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-15 09:02:43.243 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-15 09:02:43.243 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-15 09:02:43.245 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-15 09:02:43.252 [BOOT] Finished first boot 3288 ms after DOM ready
+info: Feb-15 09:02:43.725 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-15 09:02:43.727 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-15 09:02:43.932 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-15 09:02:44.194 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:02:44.276 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-15 09:02:44.635 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-15 09:02:44.635 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:38:14:844      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-15 09:38:21.530 [BOOT] booted! pri:0 version:1518678557 start_ms:1518687498201 (3329ms ago)
+info: Feb-15 09:38:21.531 [BOOT] Starting incremental boot (early)
+info: Feb-15 09:38:22.260 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-15 09:38:22.270 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-15 09:38:22.280 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-15 09:38:22.290 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-15 09:38:22.366 [FOCUS-EVENT] Window blurred
+info: Feb-15 09:38:23.837 [BOOT] Finalizing incremental boot
+info: Feb-15 09:38:24.590 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-15 09:38:24.636 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-15 09:38:24.637 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-15 09:38:24.641 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-15 09:38:24.645 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-15 09:38:24.906 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-15 09:38:24.947 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:38:24.952 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-15 09:38:25.162 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-15 09:38:25.206 [BOOT] Completed incremental boot
+info: Feb-15 09:38:25.601 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-15 09:38:25.601 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-15 09:38:25.601 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-15 09:38:25.601 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-15 09:38:25.602 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-15 09:38:25.602 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-15 09:38:25.602 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-15 09:38:25.603 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-15 09:38:25.610 [BOOT] Finished first boot 3599 ms after DOM ready
+info: Feb-15 09:38:25.840 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-15 09:38:25.873 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-15 09:38:26.600 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-15 09:38:26.600 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-15 09:38:26.221 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-15 09:38:26.364 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:38:26.617 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-15 09:38:26.788 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-15 09:38:26.789 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:46:22:794      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-15 09:46:29.554 [BOOT] booted! pri:0 version:1518678557 start_ms:1518687985698 (3856ms ago)
+info: Feb-15 09:46:29.555 [BOOT] Starting incremental boot (early)
+info: Feb-15 09:46:29.911 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-15 09:46:29.912 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-15 09:46:29.913 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-15 09:46:29.914 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-15 09:46:30.277 [FOCUS-EVENT] Window blurred
+info: Feb-15 09:46:32.780 [BOOT] Finalizing incremental boot
+info: Feb-15 09:46:33.520 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-15 09:46:33.910 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-15 09:46:33.920 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-15 09:46:33.970 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-15 09:46:33.102 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-15 09:46:33.415 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-15 09:46:33.453 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:46:33.458 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: Feb-15 09:46:33.631 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-15 09:46:33.656 [BOOT] Completed incremental boot
+info: Feb-15 09:46:33.955 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-15 09:46:33.956 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-15 09:46:33.957 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-15 09:46:33.958 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-15 09:46:33.958 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-15 09:46:33.959 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-15 09:46:33.959 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-15 09:46:33.960 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-15 09:46:33.965 [BOOT] Finished first boot 4062 ms after DOM ready
+info: Feb-15 09:46:34.109 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-15 09:46:34.141 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-15 09:46:34.551 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-15 09:46:34.554 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-15 09:46:34.673 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-15 09:46:34.796 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-15 09:46:35.148 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-15 09:46:35.368 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-15 09:46:35.369 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-16 05:53:44.270 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-16 05:53:44.270 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-16 05:53:44.280 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-16 05:53:44.290 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-16 05:53:44.290 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-16 05:53:44.290 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-16 05:53:44.300 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-16 05:53:44.300 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-16 05:53:44.300 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-16 05:53:44.300 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-16 05:53:44.300 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-16 05:53:44.310 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-16 05:53:44.310 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-16 05:53:44.320 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-16 05:53:44.320 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-16 05:53:44.360 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-16 05:53:44.428 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-16 05:53:44.428 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-16 05:53:45.840 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-16 05:53:45.840 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/16/18, 16:20:40:236      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-16 16:20:46.946 [BOOT] booted! pri:0 version:1518796384 start_ms:1518798043353 (3592ms ago)
+info: Feb-16 16:20:46.947 [BOOT] Starting incremental boot (early)
+info: Feb-16 16:20:47.396 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-16 16:20:47.397 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-16 16:20:47.398 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-16 16:20:47.398 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-16 16:20:47.602 [FOCUS-EVENT] Window blurred
+info: Feb-16 16:20:48.973 [BOOT] Finalizing incremental boot
+info: Feb-16 16:20:50.170 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-16 16:20:50.610 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-16 16:20:50.650 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-16 16:20:50.145 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-16 16:20:50.146 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-16 16:20:50.149 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-16 16:20:50.267 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-16 16:20:50.271 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-16 16:20:50.313 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-16 16:20:50.333 [BOOT] Completed incremental boot
+info: Feb-16 16:20:50.701 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-16 16:20:50.702 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-16 16:20:50.703 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-16 16:20:50.704 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-16 16:20:50.705 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-16 16:20:50.707 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-16 16:20:50.708 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-16 16:20:50.710 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-16 16:20:50.717 [BOOT] Finished first boot 3329 ms after DOM ready
+info: Feb-16 16:20:51.650 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-16 16:20:51.273 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-16 16:20:51.622 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-16 16:20:51.624 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-16 16:20:51.870 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-16 16:20:52.136 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-16 16:20:52.137 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/19/18, 08:40:48:749      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-19 08:40:56.376 [BOOT] booted! pri:0 version:1519005313 start_ms:1519029651837 (4538ms ago)
+info: Feb-19 08:40:56.377 [BOOT] Starting incremental boot (early)
+info: Feb-19 08:40:56.936 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-19 08:40:56.938 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-19 08:40:56.941 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-19 08:40:56.942 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-19 08:40:57.320 [FOCUS-EVENT] Window blurred
+info: Feb-19 08:40:58.257 [BOOT] Finalizing incremental boot
+info: Feb-19 08:40:59.362 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-19 08:40:59.407 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-19 08:40:59.412 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-19 08:40:59.483 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-19 08:40:59.485 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-19 08:40:59.490 [INFO] Got start data from Socket Manager; hydrating it
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-19 08:40:59.617 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-19 08:40:59.622 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-19 08:40:59.675 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-19 08:40:59.706 [BOOT] Completed incremental boot
+info: Feb-19 08:41:00.230 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-19 08:41:00.260 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-19 08:41:00.260 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-19 08:41:00.270 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-19 08:41:00.280 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-19 08:41:00.300 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-19 08:41:00.310 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-19 08:41:00.320 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-19 08:41:00.380 [BOOT] Finished first boot 3121 ms after DOM ready
+info: Feb-19 08:41:00.645 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-19 08:41:00.649 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-19 08:41:00.967 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-19 08:41:01.240 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-19 08:41:01.630 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-19 08:41:01.443 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-19 08:41:01.447 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/19/18, 16:01:27:933      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-19 16:01:32.844 [BOOT] booted! pri:0 version:1519005313 start_ms:1519056090376 (2468ms ago)
+info: Feb-19 16:01:32.845 [BOOT] Starting incremental boot (early)
+info: Feb-19 16:01:33.197 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-19 16:01:33.198 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-19 16:01:33.198 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-19 16:01:33.198 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-19 16:01:33.389 [FOCUS-EVENT] Window blurred
+info: Feb-19 16:01:34.337 [BOOT] Finalizing incremental boot
+info: Feb-19 16:01:35.381 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-19 16:01:35.416 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-19 16:01:35.420 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-19 16:01:35.508 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-19 16:01:35.508 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-19 16:01:35.510 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-19 16:01:35.608 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-19 16:01:35.612 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-19 16:01:35.639 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-19 16:01:35.654 [BOOT] Completed incremental boot
+info: Feb-19 16:01:35.838 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-19 16:01:35.840 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-19 16:01:35.840 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-19 16:01:35.841 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-19 16:01:35.841 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-19 16:01:35.842 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-19 16:01:35.843 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-19 16:01:35.844 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-19 16:01:35.850 [BOOT] Finished first boot 2663 ms after DOM ready
+info: Feb-19 16:01:36.300 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-19 16:01:36.281 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-19 16:01:36.377 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-19 16:01:36.378 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-19 16:01:36.652 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-19 16:01:36.790 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-19 16:01:36.790 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-20 12:05:16.759 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-20 12:05:16.760 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-20 12:05:16.763 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-20 12:05:16.765 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-20 12:05:16.767 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-20 12:05:16.767 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-20 12:05:16.767 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-20 12:05:16.767 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-20 12:05:16.768 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-20 12:05:16.769 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-20 12:05:16.774 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-20 12:05:17.151 [INFO] TS.reload() called: "parseInt(TS.boot_data.version_ts) < parseInt(data.min_version_ts)"
+info: 2018/2/20 12:05:17.154  Stacktrace: ↴
+ at Object.e [as reload] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.091a6f8fd56d8f1c85c4.min.js:1:85429)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.091a6f8fd56d8f1c85c4.min.js:1:85663)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:942062
+at https://a.slack-edge.com/bv1-1/application.97aecc095f844c798854.min.js:1:483085
+at u (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:483476)
+at R._settlePromiseFromHandler (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:455961)
+at R._settlePromise (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:456813)
+at R._settlePromise0 (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:457550)
+at R._settlePromises (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:458944)
+at u._drainQueue (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:414475)
+at u._drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:414589)
+at drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:412879)
+at MutationObserver.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.8505fcac285c0bc5a2f8.min.js:1:473288)
+info: Feb-20 12:05:17.168 [INFO] client window unloaded!
+error: Calls failed to load, bailing
+info: Feb-20 12:05:22.207 [BOOT] booted! pri:0 version:1519126211 start_ms:1519128318328 (3879ms ago)
+info: Feb-20 12:05:22.208 [BOOT] Starting incremental boot (early)
+info: Feb-20 12:05:22.959 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-20 12:05:22.960 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-20 12:05:22.961 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-20 12:05:22.961 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-20 12:05:23.440 [FOCUS-EVENT] Window blurred
+info: Feb-20 12:05:23.808 [BOOT] Finalizing incremental boot
+info: Feb-20 12:05:24.416 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-20 12:05:24.442 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-20 12:05:24.445 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-20 12:05:24.472 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-20 12:05:24.473 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-20 12:05:24.477 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-20 12:05:24.558 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-20 12:05:24.563 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-20 12:05:24.587 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-20 12:05:24.595 [BOOT] Completed incremental boot
+info: Feb-20 12:05:24.774 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-20 12:05:24.775 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-20 12:05:24.775 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-20 12:05:24.775 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-20 12:05:24.776 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-20 12:05:24.776 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-20 12:05:24.776 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-20 12:05:24.777 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-20 12:05:24.779 [BOOT] Finished first boot 1830 ms after DOM ready
+info: Feb-20 12:05:24.858 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-20 12:05:24.905 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-20 12:05:24.972 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-20 12:05:24.973 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-20 12:05:25.353 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-20 12:05:25.354 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: Feb-20 12:05:25.368 [UNREAD-COUNTS] Completed users.counts processing
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-21 08:10:05.213 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-21 08:10:05.213 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-21 08:10:05.214 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 08:10:05.215 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 08:10:05.217 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 08:10:05.217 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 08:10:05.218 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 08:10:05.218 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 08:10:05.218 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-21 08:10:05.218 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-21 08:10:05.218 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-21 08:10:05.219 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-21 08:10:05.219 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-21 08:10:05.219 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-21 08:10:05.219 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-21 08:10:05.225 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-21 08:10:05.729 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-21 08:10:05.730 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-21 08:10:06.221 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-21 08:10:06.221 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 22:40:02.153 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting from the MS next time it is convenient
+info: Feb-21 22:40:02.153 [T893KE1EF] SOCKET-MANAGER:  goodbye: disconnecting now
+info: Feb-21 22:40:02.153 [T893KE1EF] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 22:40:02.154 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 22:40:02.154 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 22:40:02.155 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 22:40:02.155 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 22:40:02.155 [T893KE1EF] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 22:40:02.156 [T893KE1EF] SOCKET-MANAGER:  Disconnected! Online? true
+info: Feb-21 22:40:02.156 [T893KE1EF] SOCKET-MANAGER:  Changing from disconnected to wait_for_rate_limit
+info: Feb-21 22:40:02.156 [T893KE1EF] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-21 22:40:02.157 [T893KE1EF] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-21 22:40:02.157 [T893KE1EF] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-21 22:40:02.158 [T893KE1EF] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-21 22:40:02.158 [T893KE1EF] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-21 22:40:02.162 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-21 22:40:02.678 [T893KE1EF] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-21 22:40:02.679 [T893KE1EF] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-21 22:40:03.185 [T893KE1EF] SOCKET-MANAGER:  Changing from connecting to connected
+info: Feb-21 22:40:03.185 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/22/18, 09:09:20:292      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-22 09:09:25.400 [BOOT] booted! pri:0 version:1519287127 start_ms:1519290563379 (2020ms ago)
+info: Feb-22 09:09:25.401 [BOOT] Starting incremental boot (early)
+info: Feb-22 09:09:26.380 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-22 09:09:26.381 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 09:09:26.381 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 09:09:26.381 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 09:09:26.436 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:09:26.882 [BOOT] Finalizing incremental boot
+info: Feb-22 09:09:27.803 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-22 09:09:27.848 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:09:27.854 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-22 09:09:27.896 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 09:09:27.898 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 09:09:27.903 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-22 09:09:28.920 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-22 09:09:28.102 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-22 09:09:28.152 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 09:09:28.179 [BOOT] Completed incremental boot
+info: Feb-22 09:09:28.571 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 09:09:28.572 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 09:09:28.573 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 09:09:28.574 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 09:09:28.574 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 09:09:28.575 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 09:09:28.575 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 09:09:28.575 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 09:09:28.578 [BOOT] Finished first boot 2206 ms after DOM ready
+info: Feb-22 09:09:28.777 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-22 09:09:28.915 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:09:29.610 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-22 09:09:29.630 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-22 09:09:29.404 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 09:09:29.505 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:09:29.506 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/22/18, 12:22:47:102      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Feb-22 12:22:51.493 [BOOT] booted! pri:0 version:1519297547 start_ms:1519302170008 (1484ms ago)
+info: Feb-22 12:22:51.493 [BOOT] Starting incremental boot (early)
+info: Feb-22 12:22:52.183 [T893KE1EF] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-22 12:22:52.185 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 12:22:52.189 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 12:22:52.190 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 12:22:52.368 [FOCUS-EVENT] Window blurred
+info: Feb-22 12:22:53.350 [BOOT] Finalizing incremental boot
+info: Feb-22 12:22:53.753 [HISTORY-FETCH] Fetching history for message pane: C8A7WPBM5
+info: Feb-22 12:22:53.787 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 12:22:53.790 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-22 12:22:53.865 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 12:22:53.866 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 12:22:53.873 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-22 12:22:54.600 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 6
+info: Feb-22 12:22:54.680 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+warn: Feb-22 12:22:54.112 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 12:22:54.143 [BOOT] Completed incremental boot
+info: Feb-22 12:22:54.557 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 12:22:54.558 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 12:22:54.559 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 12:22:54.560 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 12:22:54.560 [T893KE1EF] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 12:22:54.562 [T893KE1EF] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 12:22:54.562 [T893KE1EF] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 12:22:54.564 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 12:22:54.570 [BOOT] Finished first boot 2435 ms after DOM ready
+info: Feb-22 12:22:54.833 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: Feb-22 12:22:55.220 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 12:22:55.291 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-22 12:22:55.292 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: Feb-22 12:22:55.606 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 12:22:55.740 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 12:22:55.741 [CHECK-UNREADS] Not marking C8A7WPBM5 because attention not on chat (window_not_focused)

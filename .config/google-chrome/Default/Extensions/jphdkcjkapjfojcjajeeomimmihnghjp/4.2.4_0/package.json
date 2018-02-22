@@ -1,0 +1,36 @@
+{
+    "name": "DyslexieFont",
+    "description": "Format pages using the DyslexieFont font and low contrast help.",
+    "author": "Abbie Gonzalez & Robert Gabriel ",
+    "license": "ISC",
+    "contributors": [
+
+        {
+            "name": "Abbie Gonzalez",
+            "email": ""
+        },
+        {
+            "name": "Robert James Gabriel",
+            "email": "robert_gabriel@outlook.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:antijingoist/open-dyslexic.git"
+    },
+
+    "scripts": {
+
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-less": "*",
+        "gulp-minify-css": "*",
+        "gulp-uglify": "^1.4.0",
+        "gulp-util": "*",
+        "gulp-logger": "*",
+        "gulp-rename": "*"
+    },
+    "engine": "node >= 6.9.2"
+}

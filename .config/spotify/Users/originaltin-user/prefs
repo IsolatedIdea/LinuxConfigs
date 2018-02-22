@@ -1,0 +1,7 @@
+ps.publish-playlist=0
+ps.public-toplist=6
+audio.sync_bitrate_enumeration=4
+audio.play_bitrate_enumeration=4
+ui.show_unplayable_tracks=true
+ps.publish-activity=0
+app.player.autoplay=false

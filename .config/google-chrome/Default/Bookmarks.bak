@@ -1,0 +1,52 @@
+{
+   "checksum": "014eab3341e29ae99bca4442595db6f7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077899095367616",
+            "id": "6",
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13153417079832623",
+            "id": "9",
+            "name": "Passpack It!",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "javascript:{var D=document,o=(new Date()).getTime(),s,K='2ccdc8211f43b68ac739e8097fc8c73d';if(typeof _P!='object'||_P.k!=K||!_P.o){_P={k:K,h:D.getElementsByTagName('head')[0]||D.documentElement,u:'https://www.passpack.com/',a:0,c:'567be4'}}if(_P.o){if(o-_P.o\u003C350)_P.a=1}else setTimeout(function(){s=_P.s=D.createElement('script');s.src=_P.u+'?t=1&g=1&u='+encodeURIComponent(location.href)+'&v=2.2&r='+o+'&a='+_P.a+'&c='+_P.c+'';_P.h.appendChild(s);_P.a=_P.o=0},400);if(!_P.o)_P.o=o}void(0)"
+         }, {
+            "date_added": "13153417834634232",
+            "id": "10",
+            "name": "MTLogin",
+            "sync_transaction_version": "17",
+            "type": "url",
+            "url": "javascript:(function(){var s=document.createElement('script');s.src='https://hub.mercurytide.co.uk/media/resources/mtlogin-bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(s);})()"
+         } ],
+         "date_added": "13153311095706686",
+         "date_modified": "13161265514182168",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13153311095706688",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "47",
+      "synced": {
+         "children": [  ],
+         "date_added": "13153311095706688",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

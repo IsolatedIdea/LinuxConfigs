@@ -1,0 +1,577 @@
+[02/01/18, 10:57:40:718] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[02/01/18, 10:57:40:719] info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/01/18, 10:57:40:712      ║
+[02/01/18, 10:57:40:720] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[02/01/18, 10:57:40:914] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/01/18, 10:57:51:334] info: Window is unloading, winssb is no longer accessible
+[02/01/18, 10:57:51:460] info: Window is unloading, winssb is no longer accessible
+[02/01/18, 10:57:52:156] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[02/01/18, 10:57:52:157] info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/01/18, 10:57:52:148      ║
+[02/01/18, 10:57:52:158] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[02/01/18, 10:57:52:385] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/01/18, 10:58:06:324] info: Window is unloading, winssb is no longer accessible
+[02/01/18, 10:58:07:183] info: Window is unloading, winssb is no longer accessible
+[02/01/18, 10:58:08:160] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[02/01/18, 10:58:08:162] info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/01/18, 10:58:08:154      ║
+[02/01/18, 10:58:08:163] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[02/01/18, 10:58:08:391] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/01/18, 10:58:08:457] info: Store: ADD_NEW_TEAM
+{ id: 'U8A7WP939',
+  name: '[REDACTED]',
+  team_id: 'T893KE1EF',
+  team_name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[02/01/18, 10:58:08:460] info: Store: SET_LOGIN_DIALOG
+[02/07/18, 08:42:05:733] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[02/07/18, 08:42:05:735] info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/07/18, 08:42:05:723      ║
+[02/07/18, 08:42:05:735] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[02/07/18, 08:42:05:892] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/07/18, 08:42:06:151] info: updateSuspendResume: true
+[02/07/18, 08:42:06:154] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/07/18, 08:42:11:539] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/07/18, 08:42:11:573] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/07/18, 08:42:13:062] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/07/18, 08:42:13:300] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/07/18, 08:42:13:849] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/07/18, 08:42:17:667] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[02/07/18, 08:42:30:667] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[02/08/18, 03:15:59:697] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/08/18, 03:15:59:774] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/08/18, 23:59:34:683] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/08/18, 23:59:34:757] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/09/18, 20:05:53:759] info: Window is unloading, winssb is no longer accessible
+[02/09/18, 20:05:56:419] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[02/09/18, 20:05:56:421] info: ║      Slack 2.8.2, linux 4.14.14-1-ARCH on x64 at 02/09/18, 20:05:56:414      ║
+[02/09/18, 20:05:56:421] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[02/09/18, 20:05:56:556] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/09/18, 20:05:56:733] info: updateSuspendResume: true
+[02/09/18, 20:05:56:734] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/09/18, 20:06:14:021] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/09/18, 20:06:14:029] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/09/18, 20:06:14:307] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/09/18, 20:06:14:489] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/09/18, 20:06:14:701] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/09/18, 20:06:15:895] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/09/18, 20:06:15:896] info: Filtered Locale list: ["en_GB"]
+[02/09/18, 20:06:15:897] info: Counts: {"en":["en_GB"]}
+[02/09/18, 20:06:15:899] info: Setting en
+[02/09/18, 20:06:15:901] info: Result: {"en":"en-GB"}
+[02/09/18, 20:06:15:903] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/09/18, 20:06:15:904] info: Loading dictionary for language en-GB
+[02/09/18, 20:06:15:905] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/09/18, 20:06:15:907] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/09/18, 20:06:15:908] info: Creating node-spellchecker instance
+[02/09/18, 20:06:15:910] info: Actually installing spell check provider to Electron
+[02/09/18, 20:06:16:072] info: Loading dictionary for language en-GB
+[02/09/18, 20:06:16:073] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/09/18, 20:06:16:075] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/09/18, 21:40:45:700] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/09/18, 21:40:45:877] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/14/18, 10:50:59:828] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/14/18, 10:50:59:829] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 10:50:59:819      ║
+[02/14/18, 10:50:59:830] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/14/18, 10:51:00:010] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/14/18, 10:51:00:336] info: updateSuspendResume: true
+[02/14/18, 10:51:00:337] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/14/18, 10:51:06:174] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/14/18, 10:51:06:199] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/14/18, 10:51:07:953] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/14/18, 10:51:08:185] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/14/18, 10:51:08:500] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/14/18, 10:51:10:002] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/14/18, 10:51:10:005] info: Filtered Locale list: ["en_GB"]
+[02/14/18, 10:51:10:007] info: Counts: {"en":["en_GB"]}
+[02/14/18, 10:51:10:009] info: Setting en
+[02/14/18, 10:51:10:011] info: Result: {"en":"en-GB"}
+[02/14/18, 10:51:10:016] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 10:51:10:019] info: Loading dictionary for language en-GB
+[02/14/18, 10:51:10:028] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 10:51:10:035] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/14/18, 10:51:10:036] info: Filtered Locale list: ["en_GB"]
+[02/14/18, 10:51:10:036] info: Counts: {"en":["en_GB"]}
+[02/14/18, 10:51:10:038] info: Setting en
+[02/14/18, 10:51:10:039] info: Result: {"en":"en-GB"}
+[02/14/18, 10:51:10:040] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 10:51:10:042] info: Loading dictionary for language en-GB
+[02/14/18, 10:51:10:043] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 10:51:10:056] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/14/18, 10:51:10:057] info: Creating node-spellchecker instance
+[02/14/18, 10:51:10:062] info: Actually installing spell check provider to Electron
+[02/14/18, 10:51:10:067] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/14/18, 11:11:54:915] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/14/18, 11:11:54:917] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 11:11:54:905      ║
+[02/14/18, 11:11:54:917] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/14/18, 11:11:55:141] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/14/18, 11:11:55:482] info: updateSuspendResume: true
+[02/14/18, 11:11:55:483] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/14/18, 11:12:01:571] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/14/18, 11:12:01:604] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/14/18, 11:12:03:102] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/14/18, 11:12:03:172] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/14/18, 11:12:03:476] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/14/18, 11:12:05:164] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/14/18, 11:12:05:165] info: Filtered Locale list: ["en_GB"]
+[02/14/18, 11:12:05:167] info: Counts: {"en":["en_GB"]}
+[02/14/18, 11:12:05:169] info: Setting en
+[02/14/18, 11:12:05:170] info: Result: {"en":"en-GB"}
+[02/14/18, 11:12:05:175] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 11:12:05:177] info: Loading dictionary for language en-GB
+[02/14/18, 11:12:05:197] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 11:12:05:212] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 11:12:05:213] info: Loading dictionary for language en-GB
+[02/14/18, 11:12:05:214] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 11:12:05:226] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/14/18, 11:12:05:228] info: Creating node-spellchecker instance
+[02/14/18, 11:12:05:231] info: Actually installing spell check provider to Electron
+[02/14/18, 11:12:05:232] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/14/18, 14:24:38:818] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/14/18, 14:24:38:821] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 14:24:38:806      ║
+[02/14/18, 14:24:38:822] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/14/18, 14:24:39:018] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/14/18, 14:24:39:375] info: updateSuspendResume: true
+[02/14/18, 14:24:39:377] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/14/18, 14:24:44:909] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/14/18, 14:24:44:947] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/14/18, 14:24:44:969] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/14/18, 14:24:47:066] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/14/18, 14:24:47:338] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/14/18, 14:24:49:197] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/14/18, 14:24:49:202] info: Filtered Locale list: ["en_GB"]
+[02/14/18, 14:24:49:208] info: Counts: {"en":["en_GB"]}
+[02/14/18, 14:24:49:215] info: Setting en
+[02/14/18, 14:24:49:230] info: Result: {"en":"en-GB"}
+[02/14/18, 14:24:49:253] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 14:24:49:270] info: Loading dictionary for language en-GB
+[02/14/18, 14:24:49:318] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 14:24:49:330] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/14/18, 14:24:49:332] info: Filtered Locale list: ["en_GB"]
+[02/14/18, 14:24:49:335] info: Counts: {"en":["en_GB"]}
+[02/14/18, 14:24:49:337] info: Setting en
+[02/14/18, 14:24:49:341] info: Result: {"en":"en-GB"}
+[02/14/18, 14:24:49:346] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/14/18, 14:24:49:351] info: Loading dictionary for language en-GB
+[02/14/18, 14:24:49:356] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/14/18, 14:24:49:472] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/14/18, 14:24:49:473] info: Creating node-spellchecker instance
+[02/14/18, 14:24:49:475] info: Actually installing spell check provider to Electron
+[02/14/18, 14:24:49:476] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:02:35:077] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/15/18, 09:02:35:080] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:02:35:064      ║
+[02/15/18, 09:02:35:081] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/15/18, 09:02:35:274] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/15/18, 09:02:35:561] info: updateSuspendResume: true
+[02/15/18, 09:02:35:562] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/15/18, 09:02:41:426] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/15/18, 09:02:41:442] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/15/18, 09:02:42:801] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/15/18, 09:02:42:943] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/15/18, 09:02:43:236] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/15/18, 09:02:44:604] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/15/18, 09:02:44:606] info: Filtered Locale list: ["en_GB"]
+[02/15/18, 09:02:44:607] info: Counts: {"en":["en_GB"]}
+[02/15/18, 09:02:44:608] info: Setting en
+[02/15/18, 09:02:44:609] info: Result: {"en":"en-GB"}
+[02/15/18, 09:02:44:616] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/15/18, 09:02:44:618] info: Loading dictionary for language en-GB
+[02/15/18, 09:02:44:632] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:02:44:654] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:02:44:654] info: Creating node-spellchecker instance
+[02/15/18, 09:02:44:658] info: Actually installing spell check provider to Electron
+[02/15/18, 09:02:44:678] info: Loading dictionary for language en-GB
+[02/15/18, 09:02:44:679] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:02:44:680] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:38:16:741] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/15/18, 09:38:16:743] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:38:16:732      ║
+[02/15/18, 09:38:16:745] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/15/18, 09:38:16:969] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/15/18, 09:38:17:367] info: updateSuspendResume: true
+[02/15/18, 09:38:17:369] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/15/18, 09:38:23:829] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/15/18, 09:38:23:847] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/15/18, 09:38:25:127] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/15/18, 09:38:25:274] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/15/18, 09:38:25:600] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/15/18, 09:38:27:100] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/15/18, 09:38:27:104] info: Filtered Locale list: ["en_GB"]
+[02/15/18, 09:38:27:106] info: Counts: {"en":["en_GB"]}
+[02/15/18, 09:38:27:109] info: Setting en
+[02/15/18, 09:38:27:117] info: Result: {"en":"en-GB"}
+[02/15/18, 09:38:27:125] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/15/18, 09:38:27:130] info: Loading dictionary for language en-GB
+[02/15/18, 09:38:27:145] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:38:27:183] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:38:27:186] info: Creating node-spellchecker instance
+[02/15/18, 09:38:27:193] info: Actually installing spell check provider to Electron
+[02/15/18, 09:38:27:224] info: Loading dictionary for language en-GB
+[02/15/18, 09:38:27:225] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:38:27:233] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:46:24:788] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/15/18, 09:46:24:790] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/15/18, 09:46:24:777      ║
+[02/15/18, 09:46:24:790] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/15/18, 09:46:24:988] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/15/18, 09:46:25:304] info: updateSuspendResume: true
+[02/15/18, 09:46:25:306] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/15/18, 09:46:32:057] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/15/18, 09:46:32:092] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/15/18, 09:46:33:613] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/15/18, 09:46:33:683] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/15/18, 09:46:33:954] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/15/18, 09:46:38:721] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/15/18, 09:46:38:726] info: Filtered Locale list: ["en_GB"]
+[02/15/18, 09:46:38:730] info: Counts: {"en":["en_GB"]}
+[02/15/18, 09:46:38:733] info: Setting en
+[02/15/18, 09:46:38:738] info: Result: {"en":"en-GB"}
+[02/15/18, 09:46:38:746] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/15/18, 09:46:38:749] info: Loading dictionary for language en-GB
+[02/15/18, 09:46:38:778] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:46:38:790] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/15/18, 09:46:38:793] info: Filtered Locale list: ["en_GB"]
+[02/15/18, 09:46:38:794] info: Counts: {"en":["en_GB"]}
+[02/15/18, 09:46:38:795] info: Setting en
+[02/15/18, 09:46:38:796] info: Result: {"en":"en-GB"}
+[02/15/18, 09:46:38:798] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/15/18, 09:46:38:801] info: Loading dictionary for language en-GB
+[02/15/18, 09:46:38:802] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/15/18, 09:46:39:117] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/15/18, 09:46:39:120] info: Creating node-spellchecker instance
+[02/15/18, 09:46:39:125] info: Actually installing spell check provider to Electron
+[02/15/18, 09:46:39:129] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/16/18, 16:20:42:190] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/16/18, 16:20:42:192] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/16/18, 16:20:42:181      ║
+[02/16/18, 16:20:42:192] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/16/18, 16:20:42:382] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/16/18, 16:20:42:727] info: updateSuspendResume: true
+[02/16/18, 16:20:42:730] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/16/18, 16:20:48:964] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/16/18, 16:20:48:980] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/16/18, 16:20:50:240] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/16/18, 16:20:50:346] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/16/18, 16:20:50:696] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/16/18, 16:20:52:555] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/16/18, 16:20:52:556] info: Filtered Locale list: ["en_GB"]
+[02/16/18, 16:20:52:557] info: Counts: {"en":["en_GB"]}
+[02/16/18, 16:20:52:558] info: Setting en
+[02/16/18, 16:20:52:560] info: Result: {"en":"en-GB"}
+[02/16/18, 16:20:52:566] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/16/18, 16:20:52:568] info: Loading dictionary for language en-GB
+[02/16/18, 16:20:52:583] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/16/18, 16:20:52:613] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/16/18, 16:20:52:614] info: Creating node-spellchecker instance
+[02/16/18, 16:20:52:616] info: Actually installing spell check provider to Electron
+[02/16/18, 16:20:52:617] info: Loading dictionary for language en-GB
+[02/16/18, 16:20:52:618] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/16/18, 16:20:52:620] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/19/18, 08:40:50:576] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/19/18, 08:40:50:579] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/19/18, 08:40:50:565      ║
+[02/19/18, 08:40:50:581] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/19/18, 08:40:50:784] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/19/18, 08:40:51:186] info: updateSuspendResume: true
+[02/19/18, 08:40:51:187] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/19/18, 08:40:58:242] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/19/18, 08:40:58:264] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/19/18, 08:40:59:726] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/19/18, 08:41:00:020] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/19/18, 08:41:00:930] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/19/18, 08:41:01:606] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/19/18, 08:41:01:607] info: Filtered Locale list: ["en_GB"]
+[02/19/18, 08:41:01:609] info: Counts: {"en":["en_GB"]}
+[02/19/18, 08:41:01:612] info: Setting en
+[02/19/18, 08:41:01:618] info: Result: {"en":"en-GB"}
+[02/19/18, 08:41:01:622] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/19/18, 08:41:01:624] info: Loading dictionary for language en-GB
+[02/19/18, 08:41:01:657] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/19/18, 08:41:01:800] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/19/18, 08:41:01:809] info: Loading dictionary for language en-GB
+[02/19/18, 08:41:01:812] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/19/18, 08:41:02:088] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/19/18, 08:41:02:097] info: Creating node-spellchecker instance
+[02/19/18, 08:41:02:111] info: Actually installing spell check provider to Electron
+[02/19/18, 08:41:02:120] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/19/18, 16:01:29:640] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/19/18, 16:01:29:642] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/19/18, 16:01:29:633      ║
+[02/19/18, 16:01:29:643] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/19/18, 16:01:29:785] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/19/18, 16:01:30:076] info: updateSuspendResume: true
+[02/19/18, 16:01:30:078] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/19/18, 16:01:34:325] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/19/18, 16:01:34:343] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/19/18, 16:01:35:588] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/19/18, 16:01:35:664] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/19/18, 16:01:35:836] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/19/18, 16:01:37:247] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/19/18, 16:01:37:252] info: Filtered Locale list: ["en_GB"]
+[02/19/18, 16:01:37:255] info: Counts: {"en":["en_GB"]}
+[02/19/18, 16:01:37:258] info: Setting en
+[02/19/18, 16:01:37:266] info: Result: {"en":"en-GB"}
+[02/19/18, 16:01:37:274] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/19/18, 16:01:37:284] info: Loading dictionary for language en-GB
+[02/19/18, 16:01:37:322] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/19/18, 16:01:37:346] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/19/18, 16:01:37:347] info: Creating node-spellchecker instance
+[02/19/18, 16:01:37:350] info: Actually installing spell check provider to Electron
+[02/19/18, 16:01:37:351] info: Loading dictionary for language en-GB
+[02/19/18, 16:01:37:352] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/19/18, 16:01:37:354] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/20/18, 12:05:17:163] info: Window is unloading, winssb is no longer accessible
+[02/20/18, 12:05:17:901] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/20/18, 12:05:17:902] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/20/18, 12:05:17:894      ║
+[02/20/18, 12:05:17:903] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/20/18, 12:05:18:041] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/20/18, 12:05:18:214] info: updateSuspendResume: true
+[02/20/18, 12:05:18:215] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/20/18, 12:05:23:794] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/20/18, 12:05:23:817] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/20/18, 12:05:24:546] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/20/18, 12:05:24:601] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/20/18, 12:05:24:773] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/20/18, 12:05:25:487] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/20/18, 12:05:25:488] info: Filtered Locale list: ["en_GB"]
+[02/20/18, 12:05:25:489] info: Counts: {"en":["en_GB"]}
+[02/20/18, 12:05:25:490] info: Setting en
+[02/20/18, 12:05:25:491] info: Result: {"en":"en-GB"}
+[02/20/18, 12:05:25:493] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/20/18, 12:05:25:495] info: Loading dictionary for language en-GB
+[02/20/18, 12:05:25:496] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/20/18, 12:05:25:499] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/20/18, 12:05:25:500] info: Creating node-spellchecker instance
+[02/20/18, 12:05:25:501] info: Actually installing spell check provider to Electron
+[02/20/18, 12:05:25:850] info: Loading dictionary for language en-GB
+[02/20/18, 12:05:25:851] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/20/18, 12:05:25:854] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/22/18, 09:09:22:119] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/22/18, 09:09:22:122] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/22/18, 09:09:22:113      ║
+[02/22/18, 09:09:22:124] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/22/18, 09:09:22:338] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/22/18, 09:09:22:771] info: updateSuspendResume: true
+[02/22/18, 09:09:22:773] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/22/18, 09:09:26:876] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/22/18, 09:09:26:887] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/22/18, 09:09:28:026] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/22/18, 09:09:28:195] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/22/18, 09:09:28:570] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/22/18, 09:09:29:791] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/22/18, 09:09:29:797] info: Filtered Locale list: ["en_GB"]
+[02/22/18, 09:09:29:800] info: Counts: {"en":["en_GB"]}
+[02/22/18, 09:09:29:801] info: Setting en
+[02/22/18, 09:09:29:809] info: Result: {"en":"en-GB"}
+[02/22/18, 09:09:29:818] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/22/18, 09:09:29:824] info: Loading dictionary for language en-GB
+[02/22/18, 09:09:29:846] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/22/18, 09:09:29:882] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/22/18, 09:09:29:884] info: Creating node-spellchecker instance
+[02/22/18, 09:09:29:889] info: Actually installing spell check provider to Electron
+[02/22/18, 09:09:30:033] info: Loading dictionary for language en-GB
+[02/22/18, 09:09:30:038] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/22/18, 09:09:30:044] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/22/18, 12:22:48:631] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/22/18, 12:22:48:632] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/22/18, 12:22:48:622      ║
+[02/22/18, 12:22:48:633] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/22/18, 12:22:48:808] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/22/18, 12:22:49:171] info: updateSuspendResume: true
+[02/22/18, 12:22:49:175] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[02/22/18, 12:22:53:029] info: Store: SELECT_CHANNEL C8A7WPBM5
+[02/22/18, 12:22:53:040] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[02/22/18, 12:22:54:165] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T893KE1EF' }
+[02/22/18, 12:22:54:553] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T893KE1EF' }
+[02/22/18, 12:22:55:293] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T893KE1EF' }
+[02/22/18, 12:22:56:254] info: Raw Locale list: ["C","en_GB.utf8","POSIX",""]
+[02/22/18, 12:22:56:255] info: Filtered Locale list: ["en_GB"]
+[02/22/18, 12:22:56:255] info: Counts: {"en":["en_GB"]}
+[02/22/18, 12:22:56:256] info: Setting en
+[02/22/18, 12:22:56:258] info: Result: {"en":"en-GB"}
+[02/22/18, 12:22:56:263] info: Requesting to load en-GB, alternatives are ["en-GB","en-GB","en-US"]
+[02/22/18, 12:22:56:264] info: Loading dictionary for language en-GB
+[02/22/18, 12:22:56:307] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/22/18, 12:22:56:376] info: Setting current spellchecker to en-GB, requested language was en-GB
+[02/22/18, 12:22:56:381] info: Creating node-spellchecker instance
+[02/22/18, 12:22:56:388] info: Actually installing spell check provider to Electron
+[02/22/18, 12:22:56:396] info: Loading dictionary for language en-GB
+[02/22/18, 12:22:56:399] info: Returning local copy: /home/graeme/.config/Slack/dictionaries/en-GB.bdic
+[02/22/18, 12:22:56:405] info: Setting current spellchecker to en-GB, requested language was en-GB

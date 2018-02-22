@@ -1,0 +1,218 @@
+{
+   "checksum": "4640e326323ead7551d79135ecf1a7f4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13156363121885223",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13156363125498940",
+                  "id": "27",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "AB51E2BF-EBAE-4157-B119-6C478CE725DC",
+                     "imageData": "http://redir.opera.com/speeddials/partner/facebook",
+                     "imageDataType": "2",
+                     "imageID": "B90AB9E80FDD4C95038EBDFE11BC7C7C532FD38CD3816EA666EDAC5D8CECFBFF",
+                     "imageType": "2",
+                     "partner_id": "facebook",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/facebook",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/facebook",
+                     "redirect": "1"
+                  },
+                  "name": "Facebook",
+                  "type": "url",
+                  "url": "http://www.facebook.com/"
+               }, {
+                  "date_added": "13156363125499042",
+                  "id": "28",
+                  "meta_info": {
+                     "custom_keywords": "[\"digital camera\",\"LCD TV\",\"books\",\"DVD\",\"low prices\",\"video games\",\"pc games\",\"software\",\"electronics\",\"home\",\"garden\",\"video\",\"amazon\"]",
+                     "guid": "85E15CFC-ABD2-45DF-99B9-FE1DF8DE9C3C",
+                     "imageData": "http://redir.opera.com/speeddials/partner/amazon_gb",
+                     "imageDataType": "2",
+                     "imageID": "EF2C9F7CEE1885578697DE640325E16BFDA0A35D79805CFCC1ED5DFA88C8813E",
+                     "imageType": "2",
+                     "partner_id": "amazon_gb",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/amazon_gb",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/amazon_gb",
+                     "redirect": "1"
+                  },
+                  "name": "Amazon.co.uk",
+                  "type": "url",
+                  "url": "http://www.amazon.co.uk/"
+               }, {
+                  "date_added": "13156363125499129",
+                  "id": "29",
+                  "meta_info": {
+                     "custom_keywords": "[\"eBay\",\"electronics\",\"cars\",\"clothing\",\"apparel\",\"collectables\",\"sporting goods\",\"digital cameras\",\"antiques\",\"tickets\",\"jewellery\",\"online shopping\",\"auction\",\"online auction\"]",
+                     "guid": "F6096A0D-3D09-47D9-A721-C76E42CCE663",
+                     "imageData": "http://redir.opera.com/speeddials/partner/ebay_gb",
+                     "imageDataType": "2",
+                     "imageID": "5856580431A344785082CAC829A71C16B9512D415DF24B7F393D146CE0C12844",
+                     "imageType": "2",
+                     "partner_id": "ebay_gb",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/ebay_gb",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/ebay_gb",
+                     "redirect": "1"
+                  },
+                  "name": "eBay",
+                  "type": "url",
+                  "url": "http://www.ebay.co.uk/"
+               }, {
+                  "date_added": "13156363125499207",
+                  "id": "30",
+                  "meta_info": {
+                     "custom_keywords": "[\"hotels\",\"hostel\",\"holidays\",\"hotel\",\"special offers\",\"packages\",\"specials\",\"weekend breaks\",\"city breaks\",\"deals\",\"budget\",\"cheap\",\"discount\",\"savings\"]",
+                     "guid": "37C5284E-3716-448F-86C8-5B5B9F1050B7",
+                     "imageData": "http://redir.opera.com/speeddials/partner/booking_com_gb",
+                     "imageDataType": "2",
+                     "imageID": "2927498828C5AE69F685B89AB2C78250E59651632542A7013555819175954B5B",
+                     "imageType": "2",
+                     "partner_id": "booking_com_gb",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/booking_com_gb",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/booking_com_gb",
+                     "redirect": "1"
+                  },
+                  "name": "Booking.com",
+                  "type": "url",
+                  "url": "http://www.booking.com/"
+               }, {
+                  "date_added": "13156363125499258",
+                  "id": "31",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "26d39043-23ed-4e68-8f6b-7fad1d2337ce",
+                     "imageData": "http://redir.opera.com/speeddials/partner/very_co_uk",
+                     "imageDataType": "2",
+                     "imageID": "1D226D0C91AD4B63BAA7A26CB27319D4A4D72375C7B54015B7D18F76B6F8352B",
+                     "imageType": "2",
+                     "partner_id": "very_co_uk",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/very_co_uk",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/very_co_uk",
+                     "redirect": "1"
+                  },
+                  "name": "Very",
+                  "type": "url",
+                  "url": "http://www.very.co.uk/"
+               }, {
+                  "date_added": "13156363125499300",
+                  "id": "32",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "C7C4491A-4FD9-11E5-AB72-90BD631DAC50",
+                     "imageData": "http://redir.opera.com/speeddials/partner/aliexpress_com_uk",
+                     "imageDataType": "2",
+                     "imageID": "82909B926406328D2284882A01F1B0C7B86BE1724BDEE92E92B80490E683F7EE",
+                     "imageType": "2",
+                     "partner_id": "aliexpress_com_uk",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/aliexpress_com_uk",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/aliexpress_com_uk",
+                     "redirect": "1"
+                  },
+                  "name": "AliExpress",
+                  "type": "url",
+                  "url": "http://aliexpress.com/"
+               }, {
+                  "date_added": "13156363125499342",
+                  "id": "33",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "5190AC78-090B-4104-BE4D-AC56377D507A",
+                     "imageData": "http://redir.opera.com/speeddials/partner/argos_co_uk",
+                     "imageDataType": "2",
+                     "imageID": "6D57B2E5DFC1BF3682141E08835B28018E99FE72729D7E92504A0F34464481E5",
+                     "imageType": "2",
+                     "partner_id": "argos_co_uk",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/argos_co_uk",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/argos_co_uk",
+                     "redirect": "1"
+                  },
+                  "name": "Argos",
+                  "type": "url",
+                  "url": "http://www.argos.co.uk/"
+               }, {
+                  "date_added": "13156363125499385",
+                  "id": "34",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "D80CED48-C434-11E5-AA06-99EA19563991",
+                     "imageData": "http://redir.opera.com/speeddials/partner/amazon_prime_video_uk",
+                     "imageDataType": "2",
+                     "imageID": "41FC4ED6CA48D536FA92FF0C36C1D247323EB859F27B0B56A5D72796B19AF273",
+                     "imageType": "2",
+                     "partner_id": "amazon_prime_video_uk",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/amazon_prime_video_uk",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/amazon_prime_video_uk",
+                     "redirect": "1"
+                  },
+                  "name": "Amazon Prime",
+                  "type": "url",
+                  "url": "https://www.amazon.co.uk/"
+               } ],
+               "date_added": "13156363123769382",
+               "date_modified": "13156363125499385",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "716d25f6-e24d-4c20-ae99-20ae18729d05"
+               },
+               "name": "GraemePC",
+               "type": "folder"
+            } ],
+            "date_added": "13156363123751476",
+            "date_modified": "0",
+            "id": "6",
+            "name": "Speed Dials",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13156363123751476",
+            "date_modified": "0",
+            "id": "7",
+            "name": "Bin",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13156363123751474",
+            "date_modified": "0",
+            "id": "4",
+            "name": "Unsorted bookmarks",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13156363123751474",
+            "date_modified": "0",
+            "id": "5",
+            "name": "All bookmarks",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13156363121885231",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Imported Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13156363121885236",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "name": "com.unity.ads",
+  "version": "0.0.18",
+  "unity": "2017.2",
+  "description": "Unity Ads",
+  "keywords": [
+    "ads",
+    "unity"
+  ],
+  "category": "AssetStore/Unity"
+}

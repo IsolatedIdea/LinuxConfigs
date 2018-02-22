@@ -1,0 +1,63 @@
+[02/14/18, 10:50:57:127] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/14/18, 10:50:57:128] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/14/18, 10:50:57:120      ║
+[02/14/18, 10:50:57:129] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/14/18, 10:50:57:374] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/14/18, 10:50:58:275] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T52MS08FN', assignedId: 1 }
+[02/14/18, 10:50:58:277] info: WebView LifeCycle: New webview component created for T52MS08FN:1', with state 'unloaded'
+[02/14/18, 10:50:58:278] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T893KE1EF', assignedId: 2 }
+[02/14/18, 10:50:58:279] info: WebView LifeCycle: New webview component created for T893KE1EF:2', with state 'unloaded'
+[02/14/18, 10:50:58:319] info: TeamsDisplay: T52MS08FN usage: 1039794970
+[02/14/18, 10:50:58:320] info: TeamsDisplay: T893KE1EF usage: 0
+[02/14/18, 10:50:58:322] info: Store: SET_NETWORK_STATUS online
+[02/14/18, 10:50:58:547] info: Checking network connection to Slack...
+[02/14/18, 10:50:58:551] info: Store: APP_STARTED
+{ updated: { events: { eventId: 1 } } }
+[02/14/18, 10:50:59:347] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/14/18, 10:51:04:895] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[02/14/18, 10:51:04:903] info: Store: page-loaded
+[02/14/18, 10:51:04:917] info: TeamView: Bugsnag user: U7NDLGNAH
+[02/14/18, 10:51:04:933] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[02/14/18, 10:51:04:935] info: Store: page-loaded
+[02/14/18, 10:51:06:193] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8A7WPBM5' } } }
+[02/14/18, 10:51:06:384] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C5EQ4KK3R' } } }
+[02/14/18, 10:51:08:558] info: Webapp finished loading
+[02/14/18, 10:51:08:564] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[02/14/18, 10:51:08:567] info: Store: webapp-loaded
+[02/14/18, 10:51:09:136] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T893KE1EF: [Object] } } }
+[02/14/18, 10:51:09:405] info: Webapp finished loading
+[02/14/18, 10:51:09:411] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[02/14/18, 10:51:09:414] info: Store: webapp-loaded
+[02/14/18, 10:51:09:899] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T52MS08FN: [Object] } } }
+[02/14/18, 10:52:31:728] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/14/18, 10:53:25:060] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/14/18, 10:53:25:072] info: Creating new window notification.
+[02/14/18, 10:53:41:704] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/14/18, 10:53:47:227] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D8GB1QA9K' } } }

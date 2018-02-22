@@ -1,0 +1,9 @@
+2018/01/30-14:23:05.577 2363 Reusing MANIFEST /home/graeme/.config/google-chrome/Default/IndexedDB/https_www.amazon.co.uk_0.indexeddb.leveldb/MANIFEST-000001
+2018/01/30-14:23:14.008 2481 Current memtable full; waiting...
+2018/01/30-14:23:14.009 2495 Level-0 table #5: started
+2018/01/30-14:23:14.033 2495 Level-0 table #5: 406 bytes OK
+2018/01/30-14:23:14.057 2495 Delete type=0 #3
+2018/01/30-14:23:14.057 2495 Level-0 table #7: started
+2018/01/30-14:23:14.057 2495 Level-0 table #7: 0 bytes OK
+2018/01/30-14:23:14.083 2495 Delete type=0 #4
+2018/01/30-14:23:14.083 2495 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

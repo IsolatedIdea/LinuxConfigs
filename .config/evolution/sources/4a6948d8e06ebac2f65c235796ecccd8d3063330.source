@@ -1,0 +1,48 @@
+[Data Source]
+DisplayName=Work
+Enabled=true
+Parent=f62191d31305b968526893c2b5c5696e746f6b42
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://f62191d31305b968526893c2b5c5696e746f6b42/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=graeme.tinsdale@mercurytide.co.uk
+Aliases=
+Name=Graeme Tinsdale
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://f62191d31305b968526893c2b5c5696e746f6b42/Sent%20Items
+TransportUid=cfb29012b02c25752888aa2e83902563d97eb8ed
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

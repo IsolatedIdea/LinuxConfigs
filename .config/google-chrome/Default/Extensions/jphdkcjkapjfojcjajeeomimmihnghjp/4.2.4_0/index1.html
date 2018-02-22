@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>DyslexieFont</title>
+    <link href="assets/dist/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/roboto.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/material.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/ripples.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/default.min.css" rel="stylesheet">
+    <script src="assets/dist/js/vendor/angular.min.js"></script>
+    <script src="assets/dist/js/vendor/angular-chrome-storage.min.js"></script>
+    <script src="assets/js/app/core.js"></script>
+</head>
+
+<body ng-app="DyslexieFont" ng-controller="core" data-ng-init="init()" id="frames" >
+
+    <div class="header-panel shadow-z-1" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h5 id="headerText" style="color:white">DyslexieFont</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main main-holder">
+        <div class="row" >
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="panel panel-info">
+                    <div class="panel-heading" >
+                        <h3 class="panel-title">Options</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label id="messageDyslexieFont" class="col-md-2 control-label">off</label>
+                            <div class="togglebutton">
+                                <label id="stat">
+                                    <input type="checkbox" id="likeDyslexieFont" ng-click="DyslexieFont()" checked="0" value="0">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label id="messageChangeFontDyslexic" class="col-md-2 control-label">Change Font Size</label>
+                            <div class="togglebutton">
+                                <label id="statFontSize">
+                                    <input type="button" class="btn btn-success" id="likeIncreaseFontDyslexic" ng-click="changIncreaseFontDyslexic()" increase="0" value="+">
+                                    <input type="button" class="btn btn-warning" id="likeDecreaseFontDyslexic" ng-click="changeDecreaseFontDyslexic()" decrease="0" value="-">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Updates</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label  class="col-md-2 control-label" id="changeLog" >Change Log</label>
+                            <div class="togglebutton" >
+                                <label id="stat">
+                                    <a href="https://github.com/antijingoist/DyslexieFont-chrome/blob/master/updates.md"  style="margin:0px"class="btn btn-warning btn-xs" target="_blank">View</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            -->
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid main">
+            <div class="row">
+                <div class="col-md-10">
+                    <p class="small" style="line-height: 27px;"> &copy; 2017 <a href="http://DyslexieFont.org/" style="color:#666" target="_blank">DyslexieFont.org</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/dist/js/vendor/jquery.min.js"></script>
+    <script src="assets/dist/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/dist/js/vendor/ripples.min.js"></script>
+    <script src="assets/dist/js/vendor/material.min.js"></script>
+    <script src="assets/dist/js/app/start.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.analytics",
+  "version": "0.0.19",
+  "unity": "2017.2",
+  "description": "Unity Analytics",
+  "keywords": [
+    "analytics",
+    "unity"
+  ],
+  "readme": "Unity Analytics",
+  "category": "AssetStore/Unity"
+}

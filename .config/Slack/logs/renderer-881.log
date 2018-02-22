@@ -1,0 +1,335 @@
+[02/19/18, 16:01:27:142] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/19/18, 16:01:27:143] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/19/18, 16:01:27:137      ║
+[02/19/18, 16:01:27:144] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/19/18, 16:01:27:367] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/19/18, 16:01:28:074] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T52MS08FN', assignedId: 1 }
+[02/19/18, 16:01:28:076] info: WebView LifeCycle: New webview component created for T52MS08FN:1', with state 'unloaded'
+[02/19/18, 16:01:28:078] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T893KE1EF', assignedId: 2 }
+[02/19/18, 16:01:28:079] info: WebView LifeCycle: New webview component created for T893KE1EF:2', with state 'unloaded'
+[02/19/18, 16:01:28:083] info: TeamsDisplay: T52MS08FN usage: 1041558481
+[02/19/18, 16:01:28:084] info: TeamsDisplay: T893KE1EF usage: 0
+[02/19/18, 16:01:28:086] info: Store: SET_NETWORK_STATUS online
+[02/19/18, 16:01:28:564] info: Store: APP_STARTED
+{ updated: { events: { eventId: 1 } } }
+[02/19/18, 16:01:28:586] info: Checking network connection to Slack...
+[02/19/18, 16:01:33:256] info: TeamView: Bugsnag user: U7NDLGNAH
+[02/19/18, 16:01:33:270] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[02/19/18, 16:01:33:277] info: Store: page-loaded
+[02/19/18, 16:01:33:326] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[02/19/18, 16:01:33:327] info: Store: page-loaded
+[02/19/18, 16:01:34:336] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8A7WPBM5' } } }
+[02/19/18, 16:01:34:358] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D8GB1QA9K' } } }
+[02/19/18, 16:01:35:912] info: Webapp finished loading
+[02/19/18, 16:01:35:919] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[02/19/18, 16:01:35:926] info: Store: webapp-loaded
+[02/19/18, 16:01:36:227] info: Webapp finished loading
+[02/19/18, 16:01:36:228] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[02/19/18, 16:01:36:229] info: Store: webapp-loaded
+[02/19/18, 16:01:36:392] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T893KE1EF: [Object] } } }
+[02/19/18, 16:01:36:767] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T52MS08FN: [Object] } } }
+[02/19/18, 16:33:42:724] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8D9H7G0J' } } }
+[02/19/18, 16:59:22:792] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7PGLRJ0K' } } }
+[02/19/18, 17:27:40:872] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/19/18, 17:27:40:876] info: Creating new window notification.
+[02/20/18, 08:36:50:834] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C7JLBQYHH' } } }
+[02/20/18, 08:37:00:906] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/20/18, 09:01:20:367] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/20/18, 09:05:36:451] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 09:05:36:455] info: Creating new window notification.
+[02/20/18, 09:05:40:744] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D81FG793K' } } }
+[02/20/18, 10:15:47:645] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8D9H7G0J' } } }
+[02/20/18, 10:16:01:357] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C7JLBQYHH' } } }
+[02/20/18, 11:10:16:743] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8UCF8XAS' } } }
+[02/20/18, 11:22:04:681] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 11:22:04:692] info: Creating new window notification.
+[02/20/18, 12:01:13:715] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 12:01:13:719] info: Creating new window notification.
+[02/20/18, 12:04:06:356] info: WebView: Received redirect request from https://mercurytideteam.slack.com/messages/C8UCF8XAS/ to https://mercurytideteam.slack.com/messages/C8UCF8XAS.
+[02/20/18, 12:04:06:359] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'page-redirect',
+  data: null }
+[02/20/18, 12:04:12:532] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[02/20/18, 12:04:12:533] info: Store: page-loaded
+[02/20/18, 12:04:13:581] info: Webapp finished loading
+[02/20/18, 12:04:13:582] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[02/20/18, 12:04:13:583] info: Store: webapp-loaded
+[02/20/18, 12:05:17:221] info: WebView: Received redirect request from https://devilparrot.slack.com/messages/C8A7WPBM5/ to https://devilparrot.slack.com/messages/C8A7WPBM5.
+[02/20/18, 12:05:17:223] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'page-redirect',
+  data: null }
+[02/20/18, 12:05:23:809] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8A7WPBM5' } } }
+[02/20/18, 12:05:24:248] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[02/20/18, 12:05:24:251] info: Store: page-loaded
+[02/20/18, 12:05:24:785] info: Webapp finished loading
+[02/20/18, 12:05:24:785] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[02/20/18, 12:05:24:786] info: Store: webapp-loaded
+[02/20/18, 12:22:13:997] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/20/18, 12:44:44:684] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8UCF8XAS' } } }
+[02/20/18, 14:24:12:484] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7PGLRJ0K' } } }
+[02/20/18, 15:00:58:403] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7P3P99A5' } } }
+[02/20/18, 15:09:36:099] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 15:09:36:108] info: Creating new window notification.
+[02/20/18, 15:43:47:499] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 15:43:47:503] info: Creating new window notification.
+[02/20/18, 15:44:13:865] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 15:44:13:874] info: Creating new window notification.
+[02/20/18, 15:45:16:240] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 15:45:16:242] info: Creating new window notification.
+[02/20/18, 15:52:18:879] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 15:52:18:888] info: Creating new window notification.
+[02/20/18, 16:00:24:099] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 16:00:24:110] info: Creating new window notification.
+[02/20/18, 16:01:20:981] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 16:01:20:988] info: Creating new window notification.
+[02/20/18, 16:07:42:603] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 16:07:42:610] info: Creating new window notification.
+[02/20/18, 16:08:31:047] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 16:08:31:051] info: Creating new window notification.
+[02/20/18, 17:32:00:534] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/20/18, 17:32:00:538] info: Creating new window notification.
+[02/21/18, 08:59:38:352] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7PGLRJ0K' } } }
+[02/21/18, 09:08:01:652] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/21/18, 09:11:45:903] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:11:45:913] info: Creating new window notification.
+[02/21/18, 09:11:54:024] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/21/18, 09:13:19:086] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:13:19:092] info: Creating new window notification.
+[02/21/18, 09:14:05:181] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:14:05:190] info: Creating new window notification.
+[02/21/18, 09:14:17:738] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:14:17:741] info: Creating new window notification.
+[02/21/18, 09:14:19:819] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:14:19:823] info: Creating new window notification.
+[02/21/18, 09:25:09:118] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:25:09:124] info: Creating new window notification.
+[02/21/18, 09:26:53:057] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:26:53:063] info: Creating new window notification.
+[02/21/18, 09:26:56:688] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:26:56:696] info: Creating new window notification.
+[02/21/18, 09:30:02:119] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 09:30:02:123] info: Creating new window notification.
+[02/21/18, 09:30:11:087] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7PC0KU3H' } } }
+[02/21/18, 09:30:25:173] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C7NDMFG5S' } } }
+[02/21/18, 09:30:39:241] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/21/18, 10:45:20:912] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 10:45:20:915] info: Creating new window notification.
+[02/21/18, 11:12:02:546] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 11:12:02:550] info: Creating new window notification.
+[02/21/18, 11:20:41:330] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 11:20:41:333] info: Creating new window notification.
+[02/21/18, 11:26:05:020] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C7JLBQYHH' } } }
+[02/21/18, 11:26:10:856] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8D9H7G0J' } } }
+[02/21/18, 11:59:27:122] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/21/18, 12:02:19:135] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 12:02:19:145] info: Creating new window notification.
+[02/21/18, 12:09:55:134] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7P3P99A5' } } }
+[02/21/18, 12:10:31:723] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/21/18, 12:11:14:634] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/21/18, 12:11:48:147] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 12:11:48:154] info: Creating new window notification.
+[02/21/18, 12:11:51:541] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 12:11:51:551] info: Creating new window notification.
+[02/21/18, 12:13:03:250] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 12:13:03:259] info: Creating new window notification.
+[02/21/18, 12:18:14:650] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/21/18, 12:23:35:811] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 12:23:35:816] info: Creating new window notification.
+[02/21/18, 12:23:44:753] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7P3P99A5' } } }
+[02/21/18, 12:24:40:428] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7PGLRJ0K' } } }
+[02/21/18, 12:24:45:078] info: Store: [2] Start a download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:45:082] info: Store: [3] Update an existing download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:45:555] info: Store: [3] Update an existing download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:45:560] info: Store: [3] Update an existing download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:45:623] info: Store: [3] Update an existing download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:45:749] info: Store: [3] Update an existing download
+{ updated: { downloads: { T52MS08FN: [Object] } } }
+[02/21/18, 12:24:54:498] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/21/18, 14:46:02:893] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/21/18, 14:46:05:364] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7P3P99A5' } } }
+[02/21/18, 14:51:53:890] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:51:53:895] info: Creating new window notification.
+[02/21/18, 14:54:34:462] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:54:34:468] info: Creating new window notification.
+[02/21/18, 14:54:35:609] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:54:35:611] info: Creating new window notification.
+[02/21/18, 14:54:40:413] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7N7N5CKD' } } }
+[02/21/18, 14:55:09:873] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:55:09:879] info: Creating new window notification.
+[02/21/18, 14:55:13:579] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:55:13:588] info: Creating new window notification.
+[02/21/18, 14:58:29:245] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:58:29:251] info: Creating new window notification.
+[02/21/18, 14:59:36:811] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:59:36:818] info: Creating new window notification.
+[02/21/18, 14:59:45:377] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 14:59:45:380] info: Creating new window notification.
+[02/21/18, 15:59:42:379] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D7P3P99A5' } } }
+[02/21/18, 16:06:55:305] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 16:06:55:312] info: Creating new window notification.
+[02/21/18, 16:27:54:732] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[02/21/18, 16:27:54:739] info: Creating new window notification.
+[02/22/18, 09:01:42:004] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }

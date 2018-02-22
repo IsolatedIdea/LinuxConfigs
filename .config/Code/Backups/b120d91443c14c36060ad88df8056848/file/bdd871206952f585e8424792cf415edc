@@ -1,0 +1,123 @@
+file:///home/graeme/projects/walkers/ws_site/walkers/templates/ecommerce/basket/detail.html
+{% extends "base.html" %}
+{% load common content urllookup utils i18n freeproducts_tags delivery_tags shop_tags %}
+{% block title %}Shopping basket{% endblock %}
+{% block bodyclass %}shopping-basket{% endblock %}
+{% block basket-active-test %}selected{% endblock %}
+
+{% block full-width-layout %}
+	<div class="full-width-layout">
+		<div class="full-width-content checkout">
+			
+			<h1 class="mainheading aligncenter">{% trans 'Shopping basket' %}</h1>
+
+			{% if basket|length_is:0 %}
+				<div class="empty-basket-info">
+					<p>{% trans 'Your basket is empty.' %}</p>
+					<p><a href="/" class="button">{% trans 'Continue shopping' %}</a></p>
+				</div>
+			{% else %}
+			
+			<form method="post" action=".">
+				{% csrf_token %}
+
+				<div class="checkout-wrapper-basket">
+					<div class="checkout-columns-container">
+						
+						<!--  checkout items -->
+						<div class="checkout-column-large basket-items">
+							<table class="basket-item-list">
+								{% for entry in item_list %}
+									<tr class="basket-item">https://mercurytide.atlassian.net/browse/WS-714
+										<td class="item-wrapper-image">
+											{% with entry.obj.image.thumbnail as image %}
+												<a href="{% url_for VIEWS.PRODUCT_DETAIL entry.obj.product.slug %}">
+													<img src="{{ image.url|escape }}" class="basket-item-image" />
+												</a>
+											{% endwith %}
+										</td>
+										<td class="item-wrapper-description">
+											<a href="{% url_for VIEWS.PRODUCT_DETAIL entry.obj.product.slug %}" class="basket-item-link">
+												<span class="basket-item-name">{{ entry.obj.name|escape }}</span>
+											</a>
+											
+											{% if entry.obj.displayed_attributes %}
+												<div class="basket-attributes">
+													<ul>
+														{% for attr, value in entry.obj.displayed_attributes.items_objects %}
+															<li class="atttribute"><span class="atttribute-label">{{ attr.name|escape }}:</span> {{ value|escape }}</li>
+														{% endfor %}
+													</ul>
+												</div>
+											{% endif %}
+										</td>
+										<td class="item-wrapper-qty">Qty {{ entry.quantity_field|safe }}</td>
+										<td class="item-wrapper-price">
+											<span class="price-now">{{ entry.item.price.display_amount|currency:basket.currency }}</span>
+										</td>
+										<td class="item-wrapper-remove">
+											<button name="remove_{{ entry.index }}" type="submit" value="{% trans 'Remove' %}" class="button-remove-item">Remove </button>
+										</td>
+									</tr>
+								{% endfor %}
+							</table>
+							<input class="button-update-totals" id="update_totals" type="submit" value="Update totals" />
+							<a href="/" id="continue_shopping" class="continue-shopping-link">{% trans 'Continue shopping' %}</a>
+							
+							{% free_products basket %}
+						</div>
+			
+					
+					
+						<!-- checkout totals  -->
+						<div class="checkout-column-small basket-totals">
+							<p class="order-total">Subtotal: {{ basket.price.display_amount|currency:basket.currency }}</p>
+							{% if code_discount_name %}
+								<p class="items-discount"><button type="submit" name="discount_remove" value="Remove" class="button-remove-discount" title="Remove">Remove discount</button>({{ code_discount_name }}) {{ code_discount_price.display_amount_formatted }}</p>
+							{% else %}
+								<div id="discount_form" class="rows_form">
+									{% csrf_token %}
+									<div class="discount-code">
+										{% field discount_form.discount_code "" %}
+										<input class='ghost-button' id="apply_discount" type='submit' name='add_discount' value='Apply' />
+									</div>
+								</div>
+							{% endif %}
+							{% free_shipping_code_activated as fsca %}
+							{% if not fsca %}
+								{% free_shipping_available basket as fsa %}
+								{% if fsa %}
+									{% free_shipping_difference basket as free_shipping_extra %}
+									{% if free_shipping_extra > 0 %}
+										<p class="items-delivery">Current delivery cost is {% estimated_delivery %}</p>
+										<p class="delivery-message"><span class="delivery-message-title">Spend an additional {{ free_shipping_extra }}</span> to be eligible for FREE DELIVERY <br /><a href="{% url 'delivery-costs' %}" class="delivery-message-link">More details</a></p>
+									{% else %}
+										<p class="items-delivery">This order qualifies for FREE DELIVERY</p>
+										<p class="items-delivery"><a href="{% url 'delivery-costs' %}" class="styled-link">More details</a></p>
+									{% endif %}
+								{% endif %}
+							{% endif %}
+			
+							<div>
+								<a href="/checkout/" id="proceed" class="checkout-button">{% trans 'Pay securely now' %}</a>
+							</div>
+
+							<div class="cms">
+								{% chunk 'payment-cards' %}payment-cards chunk{% endchunk %}
+							</div>
+						</div>
+					
+						<!--  selling points  -->
+						{% include "ecommerce/checkout/_selling-points.html" %}
+					</div>
+				</div>
+			</form>
+		
+			{% endif %}	
+		</div>
+	</div>
+{% endblock %}
+
+
+{% block basket_info_bar %}{% endblock %}
+{% block newsletter-signup %}{% endblock %}

@@ -1,0 +1,13 @@
+feh --bg-scale ~/Pictures/0338.jpg
+~/.screenlayout/graeme.sh
+~/Applications/xwinwrap/gifbg.sh ~/Pictures/Planet.gif ~/Pictures/AdventureTime.gif
+stalonetray --dockapp-mode simple &
+volumeicon &
+compton --config ~/.config/compton.conf -b &
+~/.conky/conkyrings/startconky.sh &
+lxpolkit &
+slack &
+emacs &
+google-chrome-stable &
+evolution &
+urxvt &

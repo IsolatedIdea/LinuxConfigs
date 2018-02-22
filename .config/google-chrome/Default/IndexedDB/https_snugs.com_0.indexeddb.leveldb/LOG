@@ -1,0 +1,18 @@
+2017/11/01-14:14:26.680 901 Reusing MANIFEST /home/graeme/.config/google-chrome/Default/IndexedDB/https_snugs.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/01-14:14:26.680 901 Recovering log #11
+2017/11/01-14:14:26.680 901 Reusing old log /home/graeme/.config/google-chrome/Default/IndexedDB/https_snugs.com_0.indexeddb.leveldb/000011.log 
+2017/11/01-14:14:28.599 902 Current memtable full; waiting...
+2017/11/01-14:14:28.599 2009 Level-0 table #15: started
+2017/11/01-14:14:28.666 2009 Level-0 table #15: 398 bytes OK
+2017/11/01-14:14:28.934 2009 Delete type=0 #11
+2017/11/01-14:14:28.934 2009 Level-0 table #17: started
+2017/11/01-14:14:28.934 2009 Level-0 table #17: 0 bytes OK
+2017/11/01-14:14:29.126 2009 Delete type=0 #14
+2017/11/01-14:14:29.126 2009 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 26 : 1
+2017/11/01-14:14:29.126 2009 Compacting 1@0 + 1@1 files
+2017/11/01-14:14:29.777 2009 Generated table #18@0: 4 keys, 468 bytes
+2017/11/01-14:14:29.777 2009 Compacted 1@0 + 1@1 files => 468 bytes
+2017/11/01-14:14:30.865 2009 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/11/01-14:14:30.865 2009 Delete type=2 #15
+2017/11/01-14:14:30.867 2009 Delete type=2 #10
+2017/11/01-14:14:30.867 2009 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 26 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

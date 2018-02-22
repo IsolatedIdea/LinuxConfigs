@@ -1,0 +1,134 @@
+<html id="Dexlecia">
+
+<head>
+    <title>DyslexieFont</title>
+    <link href="assets/dist/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/roboto.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/material.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/ripples.min.css" rel="stylesheet">
+    
+    <link href="assets/dist/css/bootstrap/default.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/select.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/select2.css" rel="stylesheet">
+    <script src="assets/dist/js/vendor/angular.min.js"></script>
+    <script src="assets/dist/js/app/angular-sanitize.js"></script>
+    <script src="assets/dist/js/vendor/angular-chrome-storage.min.js"></script>
+    <script src="assets/dist/js/app/select.js"></script>
+    <script src="assets/js/app/core.js"></script>
+</head>
+
+<body ng-app="DyslexieFont" ng-controller="core" data-ng-init="init()" id="frames" >
+
+
+<div class="outer">
+    
+        
+    <div ng-if="showOption" class="container-fluid main main-holder">
+        <div class="row" >
+  <div class="col-sm-3 col-xs-3"><a ng-click="changeDecreaseFontDyslexic()" ><img src="assets/img/minus.png" class="Ptop"></a></div>
+  
+<div class="col-sm-6 col-xs-6 center"><img src="assets/img/Size-letters-AAA.png"></div>
+<div class="col-sm-3 col-xs-3 aright"><a ng-click="changIncreaseFontDyslexic()" ><img src="assets/img/add.png"></a></div>
+        </div>
+
+
+                <div class="row" > 
+                    <div class="col-sm-12 col-xs-12 center">
+    
+   <ui-select ng-change="changeTextColorDyslexic(textColor.value)"   ng-model="textColor" theme="select2" ng-disabled="disabled" style="min-width: 200px;">
+    <ui-select-match placeholder="{{textColor.value?'':'Text Color'}}"><img ng-src="{{textColor.url }}" /> </ui-select-match>
+    <ui-select-choices repeat="textcolor in textcolors">
+      <img ng-src="{{ textcolor.url }}" />
+     <!--<div ng-bind-html="lang.name" style="display: inline"></div>-->
+    </ui-select-choices>
+  </ui-select>
+                    
+                    
+                    </div>
+  </div>
+  <div class="row" >
+      <div class="col-sm-12 col-xs-12 center">
+  <ui-select ng-change="changeBackgroundColorDyslexic(backgroundColor.value)" ng-model="backgroundColor" theme="select2" ng-disabled="disabled" style="min-width: 200px;">
+    <ui-select-match placeholder="{{backgroundColor.value?'':'Background Color'}}"><img ng-src="{{ backgroundColor.url }}" /> </ui-select-match>
+    <ui-select-choices repeat="lang in backgroundcolors">
+      <img ng-src="{{ lang.url }}" />
+     <!--<div ng-bind-html="lang.name" style="display: inline"></div>-->
+    </ui-select-choices>
+  </ui-select>
+
+  </div>
+
+        </div>
+      <div class="row" >
+      <div class="col-sm-12 col-xs-12 center">
+  <ui-select ng-change="changeFontTypeDyslexic(fontType.value)" ng-model="fontType" theme="select2" ng-disabled="disabled" style="min-width: 200px;">
+      <ui-select-match placeholder="{{fontType.value?'':'Font Type'}}"  ><img ng-src="{{fontType.url }}" /></ui-select-match>
+     <!--<ui-select-match ng-if="fontType.value"><img ng-src="{{fontType.url }}" /> </ui-select-match>-->
+    <ui-select-choices repeat="font in fontTypes">
+      <img ng-src="{{ font.url }}" />
+     <!--<div ng-bind-html="lang.name" style="display: inline"></div>-->
+    </ui-select-choices>
+  </ui-select>
+
+      </div>
+
+        </div>
+
+<div class="row" >
+  <div class="col-sm-3 col-xs-3"><a ng-click='changeDecreaseLineHeightDyslexic()'><img src="assets/img/minus.png"></a></div>
+<div class="col-sm-6 col-xs-6 center"><img src="assets/img/align.png"></div>
+<div class="col-sm-3 col-xs-3 aright"><a ng-click='changIncreaseLineHeightDyslexic()'><img src="assets/img/add.png"></a></div>
+        </div>
+
+                <div class="row" >
+  <div class="col-sm-3 col-xs-3"><a ng-click='changeDecreaseCharSpaceDyslexic()'><img src="assets/img/minus.png"></a></div>
+<div class="col-sm-6 col-xs-6 center"><img src="assets/img/spacing-icon.png"></div>
+<div class="col-sm-3 col-xs-3 aright"><a ng-click='changIncreaseCharSpaceDyslexic()'><img src="assets/img/add.png"></a></div>
+        </div>
+
+    </div>
+    <div class="header-panel" >
+        <div class="container-fluid">
+            <div class="row">
+                <div  ng-if="!showOption && liecenceKey" class="col-sm-3 col-xs-3"><a ng-click="showAllOptions(true)" ><img src="assets/img/minimize_down.png" class="Ptop" ></a></div>
+                <div ng-if="showOption" class="col-sm-3 col-xs-3"><a ng-click="showAllOptions(false)" ><img src="assets/img/minimize.png" class="Ptop"></a></div>
+                
+<div id="logoCentre" class=" col-sm-5 col-xs-5"><img src="assets/img/logo-dyslexie-font.png"></div>
+<div id ="greenButton" ng-class="col-sm-4 col-xs-4 n1 on-off"><div class="form-group">
+                            <label id="messageDyslexieFont" class="col-md-2 control-label">off</label>
+                            <div class="togglebutton">
+                                <label id="stat">
+                                    <input type="checkbox" id="likeDyslexieFont" ng-click="DyslexieFont()" checked="0" value="0">
+                                </label>
+                            </div>
+                        </div>
+    <!--<img src="assets/img/radio_filled.png"></div>-->
+            </div>
+        </div>
+    </div>
+    </div> 
+    <div ng-if='liecenceKey' class ='row' style="text-align: right; padding-right: 20px; padding-top: 5px; padding-bottom: 5; cursor: pointer; float:right;" ><a ng-click="logout();">Logout</a></div>
+   <div id="loginDiv" class="row">
+        <div ng-if="!showOption && !liecenceKey" class="form-group col-sm-6 user_form">
+        <input class="form-control" id="user-id" type="text" name="userid" ng-model="userid" placeholder="User Id"/> 
+        <label ng-if="userIdError" class="error" > Please Enter User Id </label>
+                        <input class="form-control"  id="user-id" type="text" name="licencecode" ng-model="licencecode" placeholder="Licence Code"/> 
+                        <label ng-if="liecenceError" class="error" >{{liecenceErrorMsg?liecenceErrorMsg:'Please Enter a valid license code'}}   </label>
+                        <input class="form-control" id="user-id" type="submit" name="userid" ng-model="formsubmit"  value = "Activate" ng-click="checkLicenceKey(userid , licencecode )"/> 
+                        <a target="_blank" href="https://my.dyslexiefont.com">Don't Have License?</a>
+                    </div>
+        </div>
+    </div>
+    <div class="loading_sec" ng-if="loading">
+        <div class="loading_inner">
+            <img src="assets/img/loader3.gif"></div>
+    </div>
+
+    <script src="assets/dist/js/vendor/jquery.min.js"></script>
+    <script src="assets/dist/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/dist/js/vendor/ripples.min.js"></script>
+    <script src="assets/dist/js/vendor/material.min.js"></script>
+    <script src="assets/dist/js/app/start.min.js"></script>
+</body>
+
+</html>

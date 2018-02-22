@@ -1,0 +1,32 @@
+2018/02/22-09:10:00.133 1123 Reusing MANIFEST /home/graeme/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2018/02/22-09:10:00.213 1123 Recovering log #10180
+2018/02/22-09:10:00.214 1123 Reusing old log /home/graeme/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/010180.log 
+2018/02/22-09:11:00.246 3248 Level-0 table #10184: started
+2018/02/22-09:11:00.420 3248 Level-0 table #10184: 3185517 bytes OK
+2018/02/22-09:11:00.569 3248 Delete type=0 #10180
+2018/02/22-09:14:28.790 3248 Level-0 table #10186: started
+2018/02/22-09:14:28.899 3248 Level-0 table #10186: 3186317 bytes OK
+2018/02/22-09:14:28.946 3248 Delete type=0 #10183
+2018/02/22-10:10:59.426 3248 Level-0 table #10188: started
+2018/02/22-10:10:59.527 3248 Level-0 table #10188: 3185617 bytes OK
+2018/02/22-10:10:59.587 3248 Delete type=0 #10185
+2018/02/22-10:10:59.589 3248 Compacting 4@0 + 2@1 files
+2018/02/22-10:10:59.678 3248 Generated table #10189@0: 1 keys, 3185180 bytes
+2018/02/22-10:10:59.703 3248 Generated table #10190@0: 5 keys, 1326 bytes
+2018/02/22-10:10:59.703 3248 Compacted 4@0 + 2@1 files => 3186506 bytes
+2018/02/22-10:10:59.736 3248 compacted to: files[ 0 4 7 0 0 0 0 ]
+2018/02/22-10:10:59.736 3248 Delete type=2 #10179
+2018/02/22-10:10:59.736 3248 Delete type=2 #10184
+2018/02/22-10:10:59.737 3248 Delete type=2 #10186
+2018/02/22-10:10:59.737 3248 Delete type=2 #10188
+2018/02/22-10:10:59.738 3248 Delete type=2 #10181
+2018/02/22-10:10:59.738 3248 Delete type=2 #10178
+2018/02/22-10:30:46.648 3248 Level-0 table #10192: started
+2018/02/22-10:30:46.785 3248 Level-0 table #10192: 3186317 bytes OK
+2018/02/22-10:30:46.869 3248 Delete type=0 #10187
+2018/02/22-11:10:59.536 3248 Level-0 table #10194: started
+2018/02/22-11:10:59.674 3248 Level-0 table #10194: 3185243 bytes OK
+2018/02/22-11:10:59.698 3248 Delete type=0 #10191
+2018/02/22-11:17:26.951 3248 Level-0 table #10196: started
+2018/02/22-11:17:27.062 3248 Level-0 table #10196: 3186318 bytes OK
+2018/02/22-11:17:27.086 3248 Delete type=0 #10193

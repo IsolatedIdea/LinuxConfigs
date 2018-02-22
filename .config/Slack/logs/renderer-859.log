@@ -1,0 +1,84 @@
+[02/16/18, 16:20:39:419] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[02/16/18, 16:20:39:421] info: ║      Slack 2.8.2, linux 4.15.3-1-ARCH on x64 at 02/16/18, 16:20:39:414      ║
+[02/16/18, 16:20:39:422] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[02/16/18, 16:20:39:669] info: Initializing local storage instance at path: /home/graeme/.config/Slack/local-settings.json
+[02/16/18, 16:20:40:635] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T52MS08FN', assignedId: 1 }
+[02/16/18, 16:20:40:637] info: WebView LifeCycle: New webview component created for T52MS08FN:1', with state 'unloaded'
+[02/16/18, 16:20:40:638] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T893KE1EF', assignedId: 2 }
+[02/16/18, 16:20:40:639] info: WebView LifeCycle: New webview component created for T893KE1EF:2', with state 'unloaded'
+[02/16/18, 16:20:40:646] info: TeamsDisplay: T52MS08FN usage: 1039794970
+[02/16/18, 16:20:40:647] info: TeamsDisplay: T893KE1EF usage: 0
+[02/16/18, 16:20:40:649] info: Store: SET_NETWORK_STATUS online
+[02/16/18, 16:20:40:852] info: Checking network connection to Slack...
+[02/16/18, 16:20:40:856] info: Store: APP_STARTED
+{ updated: { events: { eventId: 1 } } }
+[02/16/18, 16:20:41:672] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/16/18, 16:20:47:326] info: TeamView: Bugsnag user: U7NDLGNAH
+[02/16/18, 16:20:47:337] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[02/16/18, 16:20:47:339] info: Store: page-loaded
+[02/16/18, 16:20:47:470] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[02/16/18, 16:20:47:472] info: Store: page-loaded
+[02/16/18, 16:20:48:888] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C77RH4U79' } } }
+[02/16/18, 16:20:48:998] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C8A7WPBM5' } } }
+[02/16/18, 16:20:50:772] info: Webapp finished loading
+[02/16/18, 16:20:50:779] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[02/16/18, 16:20:50:783] info: Store: webapp-loaded
+[02/16/18, 16:20:51:614] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T893KE1EF: [Object] } } }
+[02/16/18, 16:20:51:983] info: Webapp finished loading
+[02/16/18, 16:20:51:989] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[02/16/18, 16:20:51:991] info: Store: webapp-loaded
+[02/16/18, 16:20:52:733] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T52MS08FN: [Object] } } }
+[02/16/18, 16:21:44:973] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/16/18, 16:21:47:796] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[02/16/18, 16:21:56:501] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C52P1LKRB' } } }
+[02/16/18, 16:43:29:269] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C77RH4U79' } } }
+[02/16/18, 16:50:04:114] info: Store: QUIT_APP
+{ updated: { events: { eventId: 9 } } }
+[02/16/18, 16:50:04:128] info: Store: REMOVE_WINDOW
+{ updated: {} }
+[02/16/18, 16:50:04:159] info: TeamsDisplay: Team T52MS08FN was active for 1763511ms
+[02/16/18, 16:50:04:160] info: Store: UPDATE_TEAM_USAGE
+{ T52MS08FN: 1763511 }
+[02/16/18, 16:50:04:162] info: WebViewLifeCycle: State changed
+{ id: 'T52MS08FN',
+  componentId: 1,
+  newState: 'component-disposed',
+  data: null }
+[02/16/18, 16:50:04:163] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 1, id: 'T52MS08FN' }
+[02/16/18, 16:50:04:164] info: WebViewLifeCycle: State changed
+{ id: 'T893KE1EF',
+  componentId: 2,
+  newState: 'component-disposed',
+  data: null }
+[02/16/18, 16:50:04:165] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 2, id: 'T893KE1EF' }
+[02/16/18, 16:50:04:243] info: Store: UPDATE_TEAM_USAGE
+{ updated: { teams: { T52MS08FN: [Object] } } }

@@ -1,0 +1,24 @@
+{
+   "browser_action": {
+      "default_popup": "index.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*://docs.google.com/*" ],
+      "js": [ "/assets/js/app/system.js" ],
+      "matches": [ "*://*/*", "file:///*/*" ]
+   } ],
+   "description": "Format pages using the DyslexieFont font and low contrast help.",
+   "icons": {
+      "128": "./assets/img/logo.png",
+      "16": "./assets/img/logo.png",
+      "48": "./assets/img/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiYh2gmD5QPvy4WDjTbUJisnKrlxBaW7v+A75h1XoiuThfpCWxqn1nTLYO+w7CY1yK7jwF8hfCyM0UqRplhQDamkhX+yssTcuuwMQl33yPgYzlYH+Cq0B9HAZD5hb/yqcGX53La9cFX7VkQN2tlcRvFiuqJAIJygNCotm8K3z6PwtKnPJ+1N8iC5vT+ccpEYtLf/WnPJ53mM55eYDUwsVBQl3ShjzezSoJac+uegx/IMh549Fn9TM3RLIBZMlhGiLTynZ6BOJcDTNYhKCHMIrhn+/aoNaV55j2D0ow6IGU/UQRUzMr0xet6PXghA6f5k8W8Lf2OABi7IzkbHLtpJnZQIDAQAB",
+   "manifest_version": 2,
+   "name": "DyslexieFont",
+   "permissions": [ "tabs", "*://*/*", "http://*/*", "https://*/*", "\u003Call_urls>", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2.4",
+   "web_accessible_resources": [ "/assets/dist/fonts/Dyslexie-a-Bold-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-a-Bold-Italic-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-a-Italic-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-a-Regular-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-Bold-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-Bold-Italic-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-Italic-DF-CHROME.ttf", "/assets/dist/fonts/Dyslexie-Regular-DF-CHROME.ttf", "/assets/css/DyslexieFont/accesibility.css", "/assets/css/DyslexieFont/accesibility_italic.css" ]
+}

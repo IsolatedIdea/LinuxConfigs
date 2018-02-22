@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=Work
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=5
+
+[Authentication]
+Host=outlook.office365.com
+Method=none
+Port=143
+ProxyUid=system-proxy
+RememberPassword=true
+User=graeme.tinsdale@mercurytide.co.uk
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=4a6948d8e06ebac2f65c235796ecccd8d3063330
+ArchiveFolder=folder://f62191d31305b968526893c2b5c5696e746f6b42/Archive
+NeedsInitialSetup=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=5
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Junk Email
+RealTrashPath=Deleted Items
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

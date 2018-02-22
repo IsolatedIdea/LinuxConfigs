@@ -1,0 +1,43 @@
+2018/02/22-12:23:07.487 1174 Reusing MANIFEST /home/graeme/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2018/02/22-12:23:07.542 1174 Recovering log #10195
+2018/02/22-12:23:07.543 1174 Reusing old log /home/graeme/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/010195.log 
+2018/02/22-12:24:08.588 1869 Level-0 table #10199: started
+2018/02/22-12:24:08.736 1869 Level-0 table #10199: 3187238 bytes OK
+2018/02/22-12:24:08.770 1869 Delete type=0 #10195
+2018/02/22-12:24:08.774 1869 Compacting 4@0 + 2@1 files
+2018/02/22-12:24:09.016 1869 Generated table #10200@0: 1 keys, 3185175 bytes
+2018/02/22-12:24:09.081 1869 Generated table #10201@0: 5 keys, 1326 bytes
+2018/02/22-12:24:09.081 1869 Compacted 4@0 + 2@1 files => 3186501 bytes
+2018/02/22-12:24:09.111 1869 compacted to: files[ 0 4 7 0 0 0 0 ]
+2018/02/22-12:24:09.112 1869 Delete type=2 #10196
+2018/02/22-12:24:09.112 1869 Delete type=2 #10190
+2018/02/22-12:24:09.112 1869 Delete type=2 #10194
+2018/02/22-12:24:09.125 1869 Delete type=2 #10189
+2018/02/22-12:24:09.127 1869 Delete type=2 #10199
+2018/02/22-12:24:09.128 1869 Delete type=2 #10192
+2018/02/22-12:25:48.958 1869 Level-0 table #10203: started
+2018/02/22-12:25:49.122 1869 Level-0 table #10203: 3187174 bytes OK
+2018/02/22-12:25:49.162 1869 Delete type=0 #10198
+2018/02/22-13:24:09.067 1869 Level-0 table #10205: started
+2018/02/22-13:24:09.201 1869 Level-0 table #10205: 3186275 bytes OK
+2018/02/22-13:24:09.230 1869 Delete type=0 #10202
+2018/02/22-13:28:16.042 1869 Level-0 table #10207: started
+2018/02/22-13:28:16.213 1869 Level-0 table #10207: 3187178 bytes OK
+2018/02/22-13:28:16.277 1869 Delete type=0 #10204
+2018/02/22-14:24:07.902 1869 Level-0 table #10209: started
+2018/02/22-14:24:07.995 1869 Level-0 table #10209: 3186702 bytes OK
+2018/02/22-14:24:08.034 1869 Delete type=0 #10206
+2018/02/22-14:24:08.036 1869 Compacting 4@0 + 2@1 files
+2018/02/22-14:24:08.288 1869 Generated table #10210@0: 1 keys, 3186007 bytes
+2018/02/22-14:24:08.321 1869 Generated table #10211@0: 5 keys, 1328 bytes
+2018/02/22-14:24:08.321 1869 Compacted 4@0 + 2@1 files => 3187335 bytes
+2018/02/22-14:24:08.343 1869 compacted to: files[ 0 4 7 0 0 0 0 ]
+2018/02/22-14:24:08.344 1869 Delete type=2 #10200
+2018/02/22-14:24:08.345 1869 Delete type=2 #10201
+2018/02/22-14:24:08.346 1869 Delete type=2 #10203
+2018/02/22-14:24:08.346 1869 Delete type=2 #10207
+2018/02/22-14:24:08.347 1869 Delete type=2 #10209
+2018/02/22-14:24:08.348 1869 Delete type=2 #10205
+2018/02/22-14:50:32.686 1869 Level-0 table #10213: started
+2018/02/22-14:50:32.812 1869 Level-0 table #10213: 3187146 bytes OK
+2018/02/22-14:50:32.845 1869 Delete type=0 #10208

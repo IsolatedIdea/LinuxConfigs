@@ -1,0 +1,18 @@
+2017/11/08-11:48:51.875 4508 Reusing MANIFEST /home/graeme/.config/google-chrome/Default/IndexedDB/https_community.logitech.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/08-11:48:53.762 29686 Level-0 table #5: started
+2017/11/08-11:48:53.762 4508 Current memtable full; waiting...
+2017/11/08-11:48:53.805 29686 Level-0 table #5: 327582 bytes OK
+2017/11/08-11:48:53.828 29686 Delete type=0 #3
+2017/11/08-11:48:53.829 29686 Level-0 table #7: started
+2017/11/08-11:48:53.829 29686 Level-0 table #7: 0 bytes OK
+2017/11/08-11:48:53.854 29686 Delete type=0 #4
+2017/11/08-11:48:53.854 29686 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/11/08-11:49:21.030 29686 Level-0 table #9: started
+2017/11/08-11:49:21.116 29686 Level-0 table #9: 1520347 bytes OK
+2017/11/08-11:49:21.223 29686 Delete type=0 #6
+2017/11/08-11:49:22.260 29686 Compacting 1@1 + 1@2 files
+2017/11/08-11:49:22.359 29686 Generated table #10@1: 1466 keys, 1635625 bytes
+2017/11/08-11:49:22.359 29686 Compacted 1@1 + 1@2 files => 1635625 bytes
+2017/11/08-11:49:22.391 29686 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/11/08-11:49:22.392 29686 Delete type=2 #9
+2017/11/08-11:49:22.392 29686 Delete type=2 #5

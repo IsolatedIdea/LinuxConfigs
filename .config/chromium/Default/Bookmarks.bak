@@ -1,0 +1,43 @@
+{
+   "checksum": "93f3b9364c44e0f899a38c80256643ed",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077899095367616",
+            "id": "6",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_5a6d0f4958c135ce",
+               "stars.version": "sync.server.Chrome43"
+            },
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         } ],
+         "date_added": "13153226184432311",
+         "date_modified": "13077899095367616",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13153226184432324",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "1",
+      "synced": {
+         "children": [  ],
+         "date_added": "13153226184432326",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

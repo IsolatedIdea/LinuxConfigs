@@ -1,0 +1,30 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "ipvfoo@pmarks.net"
+      }
+   },
+   "background": {
+      "scripts": [ "common.js", "background.js" ]
+   },
+   "description": "Display the server IP address, with a realtime summary of IPv4, IPv6, and HTTPS information across all page elements.",
+   "homepage_url": "https://github.com/pmarks-net/ipvfoo",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDebas5sYcRg/yzHIIZ4FHlKz6r2J0NpNl6n1Bcpl75ju2wifquA1or4QG2gml6ANxvgg24hVafnZDctkJgaNkUal3STWTzeYxVc1NgiSItByFXC+c6OSvXn1fsOFfkC4MvH7VYdTgA/PhaQ9h8NGcfanI8Ncv9j+jYTVWJz6Yw6QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26",
+   "name": "IPvFoo",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "page_action": {
+      "dummy": "http://crbug.com/86449"
+   },
+   "permissions": [ "contextMenus", "storage", "tabs", "webNavigation", "webRequest", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.42"
+}
